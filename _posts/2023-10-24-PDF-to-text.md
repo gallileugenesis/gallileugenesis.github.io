@@ -24,7 +24,8 @@ pdf_url = "https://www.ic.unicamp.br/~stolfi/misc/2012-02-13-domine-casmurrus.pd
 # Solicitação HTTP para baixar o PDF a partir do URL
 response = requests.get(pdf_url)
 
-# Abre um arquivo local chamado "Dom-Casmurro.pdf" e escreve o conteúdo do PDF nesse arquivo
+# Abre um arquivo local chamado "Dom-Casmurro.pdf" 
+# e escreve o conteúdo do PDF nesse arquivo
 with open("Dom-Casmurro.pdf", "wb") as pdf_file:
    pdf_file.write(response.content)
 ```

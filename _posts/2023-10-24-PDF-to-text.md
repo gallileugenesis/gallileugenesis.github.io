@@ -11,7 +11,7 @@ tags: [data science, extração de texto]
 
 A capacidade de converter o conteúdo de um arquivo PDF da web em texto é uma habilidade fundamental para diversas aplicações, incluindo análise de texto, extração de informações e processamento de linguagem natural. Neste tutorial, mostraremos como realizar essa tarefa de forma eficiente usando Python.
 
-## Passo 1: Baixar o Arquivo PDF da Web
+## Passo 1: Baixar o arquivo PDF da web
 O primeiro passo é baixar o arquivo PDF da web. Podemos usar a biblioteca requests para realizar o download do arquivo a partir de uma URL:
 
 
@@ -30,7 +30,7 @@ with open("Dom-Casmurro.pdf", "wb") as pdf_file:
    pdf_file.write(response.content)
 ```
 
-## Passo 2: Converter o PDF em Texto
+## Passo 2: Converter o PDF em texto
 Para converter o arquivo PDF em texto utilizável, usamos a biblioteca PyPDF2. A seguir, o código que realiza essa conversão:
 
 

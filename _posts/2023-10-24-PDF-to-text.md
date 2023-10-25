@@ -68,7 +68,7 @@ pdf_text[0:1000]
 **Obs:** O caractere '\n' representa uma quebra de linha. Ele é chamado de caractere de escape de nova linha ou simplesmente um caractere de nova linha.
 
 
-
+## Passo 3: Salvar o conteúdo em formato *.txt*
 
 Adicionalmente, você pode querer salvar o texto em formato *.txt*.
 
@@ -78,6 +78,8 @@ Adicionalmente, você pode querer salvar o texto em formato *.txt*.
 with open("Dom-Casmurro.txt", "w", encoding="utf-8") as txt_file:
    txt_file.write(pdf_text)
 ```
+
+## Passo 4: Ler o conteúdo do arquivo *.txt*
 
 Para ler o conteúdo do arquivo *.txt* basta executar o código a seguir.
 

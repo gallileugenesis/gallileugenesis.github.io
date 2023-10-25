@@ -75,8 +75,8 @@ Adicionalmente, você pode querer salvar o texto em um arquivo *.txt*.
 
 ```python
 # Abrimos um arquivo de texto chamado "Dom-Casmurro.txt" no modo de escrita ('w') 
-# e escrevemos o texto extraído nele
 with open("Dom-Casmurro.txt", "w", encoding="utf-8") as txt_file:
+   # Escrevemos o texto extraído nele
    txt_file.write(pdf_text)
 ```
 

@@ -68,9 +68,9 @@ pdf_text[0:1000]
 **Obs:** O caractere '\n' representa uma quebra de linha. Ele é chamado de caractere de escape de nova linha ou simplesmente um caractere de nova linha.
 
 
-## Passo 3: Salvar o conteúdo em formato *.txt*
+## Passo 3: Salvar o texto em um arquivo *.txt*
 
-Adicionalmente, você pode querer salvar o texto em formato *.txt*.
+Adicionalmente, você pode querer salvar o texto em um arquivo *.txt*.
 
 
 ```python

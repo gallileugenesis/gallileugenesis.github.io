@@ -1,5 +1,5 @@
 ---
-title:  "Como Converter um arquivo PDF da Web em Texto"
+title:  Como Converter um arquivo PDF da Web em Texto
 date:   2023-10-24 12:00:00 -500
 categories: [Blog]
 tags: [data science, extração de texto]

@@ -785,55 +785,55 @@ for col in numerical_features:
 
 
     
-![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/competi%C3%A7%C3%B5es%20kaggle/2023-08-27-EDA-California-Housing-Dataset/output_23_0.png?raw=true)
+![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2023-08-27-EDA-California-Housing-Dataset/2023-08-27-EDA-California-Housing-Dataset/output_23_0.png?raw=true)
     
 
 
 
     
-![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/competi%C3%A7%C3%B5es%20kaggle/2023-08-27-EDA-California-Housing-Dataset/output_23_1.png?raw=true)
+![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2023-08-27-EDA-California-Housing-Dataset/2023-08-27-EDA-California-Housing-Dataset/output_23_1.png?raw=true)
     
 
 
 
     
-![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/competi%C3%A7%C3%B5es%20kaggle/2023-08-27-EDA-California-Housing-Dataset/output_23_2.png?raw=true)
+![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2023-08-27-EDA-California-Housing-Dataset/2023-08-27-EDA-California-Housing-Dataset/output_23_2.png?raw=true)
     
 
 
 
     
-![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/competi%C3%A7%C3%B5es%20kaggle/2023-08-27-EDA-California-Housing-Dataset/output_23_3.png?raw=true)
+![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2023-08-27-EDA-California-Housing-Dataset/2023-08-27-EDA-California-Housing-Dataset/output_23_3.png?raw=true)
     
 
 
 
     
-![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/competi%C3%A7%C3%B5es%20kaggle/2023-08-27-EDA-California-Housing-Dataset/output_23_4.png?raw=true)
+![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2023-08-27-EDA-California-Housing-Dataset/2023-08-27-EDA-California-Housing-Dataset/output_23_4.png?raw=true)
     
 
 
 
     
-![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/competi%C3%A7%C3%B5es%20kaggle/2023-08-27-EDA-California-Housing-Dataset/output_23_5.png?raw=true)
+![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2023-08-27-EDA-California-Housing-Dataset/2023-08-27-EDA-California-Housing-Dataset/output_23_5.png?raw=true)
     
 
 
 
     
-![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/competi%C3%A7%C3%B5es%20kaggle/2023-08-27-EDA-California-Housing-Dataset/output_23_6.png?raw=true)
+![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2023-08-27-EDA-California-Housing-Dataset/2023-08-27-EDA-California-Housing-Dataset/output_23_6.png?raw=true)
     
 
 
 
     
-![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/competi%C3%A7%C3%B5es%20kaggle/2023-08-27-EDA-California-Housing-Dataset/output_23_7.png?raw=true)
+![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2023-08-27-EDA-California-Housing-Dataset/2023-08-27-EDA-California-Housing-Dataset/output_23_7.png?raw=true)
     
 
 
 
     
-![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/competi%C3%A7%C3%B5es%20kaggle/2023-08-27-EDA-California-Housing-Dataset/output_23_8.png?raw=true)
+![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2023-08-27-EDA-California-Housing-Dataset/2023-08-27-EDA-California-Housing-Dataset/output_23_8.png?raw=true)
 
 
 
@@ -844,55 +844,55 @@ for col in numerical_features:
 
 
     
-![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/competi%C3%A7%C3%B5es%20kaggle/2023-08-27-EDA-California-Housing-Dataset/output_24_0.png?raw=true)
+![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2023-08-27-EDA-California-Housing-Dataset/2023-08-27-EDA-California-Housing-Dataset/output_24_0.png?raw=true)
     
 
 
 
     
-![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/competi%C3%A7%C3%B5es%20kaggle/2023-08-27-EDA-California-Housing-Dataset/output_24_1.png?raw=true)
+![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2023-08-27-EDA-California-Housing-Dataset/2023-08-27-EDA-California-Housing-Dataset/output_24_1.png?raw=true)
     
 
 
 
     
-![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/competi%C3%A7%C3%B5es%20kaggle/2023-08-27-EDA-California-Housing-Dataset/output_24_2.png?raw=true)
+![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2023-08-27-EDA-California-Housing-Dataset/2023-08-27-EDA-California-Housing-Dataset/output_24_2.png?raw=true)
     
 
 
 
     
-![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/competi%C3%A7%C3%B5es%20kaggle/2023-08-27-EDA-California-Housing-Dataset/output_24_3.png?raw=true)
+![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2023-08-27-EDA-California-Housing-Dataset/2023-08-27-EDA-California-Housing-Dataset/output_24_3.png?raw=true)
     
 
 
 
     
-![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/competi%C3%A7%C3%B5es%20kaggle/2023-08-27-EDA-California-Housing-Dataset/output_24_4.png?raw=true)
+![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2023-08-27-EDA-California-Housing-Dataset/2023-08-27-EDA-California-Housing-Dataset/output_24_4.png?raw=true)
     
 
 
 
     
-![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/competi%C3%A7%C3%B5es%20kaggle/2023-08-27-EDA-California-Housing-Dataset/output_24_5.png?raw=true)
+![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2023-08-27-EDA-California-Housing-Dataset/2023-08-27-EDA-California-Housing-Dataset/output_24_5.png?raw=true)
     
 
 
 
     
-![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/competi%C3%A7%C3%B5es%20kaggle/2023-08-27-EDA-California-Housing-Dataset/output_24_6.png?raw=true)
+![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2023-08-27-EDA-California-Housing-Dataset/2023-08-27-EDA-California-Housing-Dataset/output_24_6.png?raw=true)
     
 
 
 
     
-![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/competi%C3%A7%C3%B5es%20kaggle/2023-08-27-EDA-California-Housing-Dataset/output_24_7.png?raw=true)
+![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2023-08-27-EDA-California-Housing-Dataset/2023-08-27-EDA-California-Housing-Dataset/output_24_7.png?raw=true)
     
 
 
 
     
-![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/competi%C3%A7%C3%B5es%20kaggle/2023-08-27-EDA-California-Housing-Dataset/output_24_8.png?raw=true)
+![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2023-08-27-EDA-California-Housing-Dataset/2023-08-27-EDA-California-Housing-Dataset/output_24_8.png?raw=true)
     
 
 
@@ -904,55 +904,55 @@ for col in numerical_features:
 
 
     
-![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/competi%C3%A7%C3%B5es%20kaggle/2023-08-27-EDA-California-Housing-Dataset/output_25_0.png?raw=true)
+![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2023-08-27-EDA-California-Housing-Dataset/2023-08-27-EDA-California-Housing-Dataset/output_25_0.png?raw=true)
     
 
 
 
     
-![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/competi%C3%A7%C3%B5es%20kaggle/2023-08-27-EDA-California-Housing-Dataset/output_25_1.png?raw=true)
+![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2023-08-27-EDA-California-Housing-Dataset/2023-08-27-EDA-California-Housing-Dataset/output_25_1.png?raw=true)
     
 
 
 
     
-![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/competi%C3%A7%C3%B5es%20kaggle/2023-08-27-EDA-California-Housing-Dataset/output_25_2.png?raw=true)
+![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2023-08-27-EDA-California-Housing-Dataset/2023-08-27-EDA-California-Housing-Dataset/output_25_2.png?raw=true)
     
 
 
 
     
-![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/competi%C3%A7%C3%B5es%20kaggle/2023-08-27-EDA-California-Housing-Dataset/output_25_3.png?raw=true)
+![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2023-08-27-EDA-California-Housing-Dataset/2023-08-27-EDA-California-Housing-Dataset/output_25_3.png?raw=true)
     
 
 
 
     
-![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/competi%C3%A7%C3%B5es%20kaggle/2023-08-27-EDA-California-Housing-Dataset/output_25_4.png?raw=true)
+![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2023-08-27-EDA-California-Housing-Dataset/2023-08-27-EDA-California-Housing-Dataset/output_25_4.png?raw=true)
     
 
 
 
     
-![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/competi%C3%A7%C3%B5es%20kaggle/2023-08-27-EDA-California-Housing-Dataset/output_25_5.png?raw=true)
+![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2023-08-27-EDA-California-Housing-Dataset/2023-08-27-EDA-California-Housing-Dataset/output_25_5.png?raw=true)
     
 
 
 
     
-![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/competi%C3%A7%C3%B5es%20kaggle/2023-08-27-EDA-California-Housing-Dataset/output_25_6.png?raw=true)
+![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2023-08-27-EDA-California-Housing-Dataset/2023-08-27-EDA-California-Housing-Dataset/output_25_6.png?raw=true)
     
 
 
 
     
-![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/competi%C3%A7%C3%B5es%20kaggle/2023-08-27-EDA-California-Housing-Dataset/output_25_7.png?raw=true)
+![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2023-08-27-EDA-California-Housing-Dataset/2023-08-27-EDA-California-Housing-Dataset/output_25_7.png?raw=true)
     
 
 
 
     
-![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/competi%C3%A7%C3%B5es%20kaggle/2023-08-27-EDA-California-Housing-Dataset/output_25_8.png?raw=true)
+![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2023-08-27-EDA-California-Housing-Dataset/2023-08-27-EDA-California-Housing-Dataset/output_25_8.png?raw=true)
     
 
 
@@ -971,13 +971,13 @@ plot_pairplot(train, test)
 
 
     
-![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/competi%C3%A7%C3%B5es%20kaggle/2023-08-27-EDA-California-Housing-Dataset/output_27_1.png?raw=true)
+![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2023-08-27-EDA-California-Housing-Dataset/2023-08-27-EDA-California-Housing-Dataset/output_27_1.png?raw=true)
     
 
 
 
     
-![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/competi%C3%A7%C3%B5es%20kaggle/2023-08-27-EDA-California-Housing-Dataset/output_27_2.png?raw=true)
+![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2023-08-27-EDA-California-Housing-Dataset/2023-08-27-EDA-California-Housing-Dataset/output_27_2.png?raw=true)
     
 
 
@@ -989,7 +989,7 @@ plot_heatmap(train[numerical_features])
 
 
     
-![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/competi%C3%A7%C3%B5es%20kaggle/2023-08-27-EDA-California-Housing-Dataset/output_28_0.png?raw=true)
+![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2023-08-27-EDA-California-Housing-Dataset/2023-08-27-EDA-California-Housing-Dataset/output_28_0.png?raw=true)
     
 
 
@@ -1001,7 +1001,7 @@ plot_heatmap(test[numerical_features[:-1]])
 
 
     
-![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/competi%C3%A7%C3%B5es%20kaggle/2023-08-27-EDA-California-Housing-Dataset/output_29_0.png?raw=true)
+![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2023-08-27-EDA-California-Housing-Dataset/2023-08-27-EDA-California-Housing-Dataset/output_29_0.png?raw=true)
     
 
 
@@ -1027,7 +1027,7 @@ plt.show()
 
 
     
-![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/competi%C3%A7%C3%B5es%20kaggle/2023-08-27-EDA-California-Housing-Dataset/output_31_0.png?raw=true)
+![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2023-08-27-EDA-California-Housing-Dataset/2023-08-27-EDA-California-Housing-Dataset/output_31_0.png?raw=true)
     
 
 
@@ -1051,7 +1051,7 @@ plt.show()
 
 
     
-![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/competi%C3%A7%C3%B5es%20kaggle/2023-08-27-EDA-California-Housing-Dataset/output_32_0.png?raw=true)
+![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2023-08-27-EDA-California-Housing-Dataset/2023-08-27-EDA-California-Housing-Dataset/output_32_0.png?raw=true)
     
 
 **Nota:** Todo o código está disponível no [Github](https://github.com/gallileugenesis/California-Housing-Dataset)

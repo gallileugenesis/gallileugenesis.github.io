@@ -6,7 +6,7 @@ tags: [hackathon, inovação, ciência de dados, openbanking]
 ---
 
 <div style="text-align:center;">
-  <img src="https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2022-06-17-Hackathon-Banco-Safra/1-open_credit.png?raw=true" alt="Design do app OpenCredit" width="700">
+  <img src="https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2022-06-17-Hackathon-Banco-Safra/1-open_credit.png?raw=true" alt="Design do app OpenCredit" style="width:700px">
   <br>
   Figura 1: Design do app OpenCredit.
 </div>
@@ -26,7 +26,7 @@ O programa era destinado ao preenchimento das seguintes vagas dentro da organiza
 - **ARQUITETURA**: Área responsável pela gestão de serviços, sistemas e softwares da área de Tecnologia e pela mitigação de impactos em estratégias de mudanças tecnológicas. Curioso, estudioso e atento às tendências do mercado, esse profissional deverá compreender a aplicabilidade, viabilidade de implantação, uso e manutenção das diversas tecnologias dentro do ambiente do banco. Imprescindível conhecimento em engenharia de software e desenvolvimento de sistemas.|
 
 <div style="text-align:center;">
-  <img src="https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2022-06-17-Hackathon-Banco-Safra/2-mercado1.png?raw=true" alt="Números de mercado que justificam o modelo de negócio baseado nas micro e pequenas empresas" width="700">
+  <img src="https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2022-06-17-Hackathon-Banco-Safra/2-mercado1.png?raw=true" alt="Números de mercado que justificam o modelo de negócio baseado nas micro e pequenas empresas" style="width:700px">
   <br>
   Figura 2: Números de mercado que justificam o modelo de negócio baseado nas micro e pequenas empresas.
 </div>
@@ -45,7 +45,7 @@ O mercado financeiro vem passando por diversas transformações em um curto espa
 sempre ávidos por novidades, principalmente aquelas que facilitem seu dia a dia e a maneira com a qual lidam com suas finanças.
 
 <div style="text-align:center;">
-  <img src="https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2022-06-17-Hackathon-Banco-Safra/3-mercado2.png?raw=true" alt="Análise de mercado mostrando as principais dores relatadas por 20 empreendedores que responderam a um questionário formulado por nossa equipe" width="700">
+  <img src="https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2022-06-17-Hackathon-Banco-Safra/3-mercado2.png?raw=true" alt="Análise de mercado mostrando as principais dores relatadas por 20 empreendedores que responderam a um questionário formulado por nossa equipe" style="width:700px">
   <br>
   Figura 3: Análise de mercado mostrando as principais dores relatadas por 20 empreendedores que responderam a um questionário formulado por nossa equipe.
 </div>
@@ -74,50 +74,50 @@ Como podemos inovar e nos diferenciar criando experiências simples, transparent
 4. Código fonte completo produzido na solução proposta para o problema abordado. Interface web navegável da solução.
 
 <div style="text-align:center;">
-  <img src="https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2022-06-17-Hackathon-Banco-Safra/4-swot.png?raw=true" alt="Matriz SWOT do projeto OpenCredit" width="700">
+  <img src="https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2022-06-17-Hackathon-Banco-Safra/4-swot.png?raw=true" alt="Matriz SWOT do projeto OpenCredit" style="width:700px">
   <br>
   Figura 4: Matriz SWOT do projeto OpenCredit.
 </div>
 
 Os aspectos relativos à governança, por meio da metodologia ITIL, e de infraestrutura da solução são mostrados nas Figuras 5 e 6. 
 
-<p align="center">
-<img src="https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2022-06-17-Hackathon-Banco-Safra/5-gov_infra.png?raw=true" alt="Esquemas de governança (metodologia ITIL) e infraestrutura do OpenCredit" width="600"/>
-<br> 
-Figura 5: Esquemas de governança (metodologia ITIL) e infraestrutura do OpenCredit.
-</p>
+<div style="text-align:center;">
+  <img src="https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2022-06-17-Hackathon-Banco-Safra/5-gov_infra.png?raw=true" alt="Esquemas de governança (metodologia ITIL) e infraestrutura do OpenCredit" style="width:700px">
+  <br>
+  Figura 5: Esquemas de governança (metodologia ITIL) e infraestrutura do OpenCredit.
+</div>
 
-<p align="center">
-<img src="https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2022-06-17-Hackathon-Banco-Safra/6-infra.png?raw=true" alt="Mais detalhes da infraestrutura do OpenCredit" width="600"/>
-<br> 
-Figura 6: Mais detalhes da infraestrutura do OpenCredit.
-</p>
+<div style="text-align:center;">
+  <img src="https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2022-06-17-Hackathon-Banco-Safra/6-infra.png?raw=true" alt="Mais detalhes da infraestrutura do OpenCredit" style="width:700px">
+  <br>
+  Figura 6: Mais detalhes da infraestrutura do OpenCredit.
+</div>
 
 Outro ponto importante a se destacar na solução apresentada está relacionado a segurança de informação, como mostra, resumidamente, a Figura 7. 
 
-<p align="center">
-<img src="https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2022-06-17-Hackathon-Banco-Safra/7-seg_info.png?raw=true" alt="Resumo dos aspectos relativos à segurança da informação" width="600"/>
-<br> 
-Figura 7: Resumo dos aspectos relativos à segurança da informação.
-</p>
+<div style="text-align:center;">
+  <img src="https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2022-06-17-Hackathon-Banco-Safra/7-seg_info.png?raw=true" alt="Resumo dos aspectos relativos à segurança da informação" style="width:700px">
+  <br>
+  Figura 7: Resumo dos aspectos relativos à segurança da informação.
+</div>
 
 Do ponto de vista dos processos de inovação, o OpenCredit traz uma série de possibilidades transformadoras, tanto para os clientes, quanto para o Banco Safra. Sob essa ótica, os usuários do app substituirão mecanismos de busca obsoletos e descentralizados, por um serviço simples e intuitivo, que concentra todas as informações relativas à crédito bancário  em um só lugar. Além disso, os clientes passarão a integrar o ambiente Open Banking, se beneficiando da concorrência entre as instituições financeiras, e vislumbrando novas oportunidades de negócios.
 
-<p align="center">
-<img src="https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2022-06-17-Hackathon-Banco-Safra/8-inov.png?raw=true" alt="Processos de inovação gerados pelo OpenCredit" width="600"/>
-<br> 
-Figura 8: Processos de inovação gerados pelo OpenCredit.
-</p>
+<div style="text-align:center;">
+  <img src="https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2022-06-17-Hackathon-Banco-Safra/8-inov.png?raw=true" alt="Processos de inovação gerados pelo OpenCredit" style="width:700px">
+  <br>
+  Figura 8: Processos de inovação gerados pelo OpenCredit.
+</div>
 
 Já para o Banco Safra, o OpenCredit se constitui como uma nova fonte de dados Open Banking, gerando um novo canal para desenvolvimento de negócios e fortalecimento de parcerias. Adicionalmente, o app pode ser considerado um nova plataforma digital passível de fácil integração com outras áreas de tecnologia da instituição, como mostra a Figura 8.
 
 A Figura 9 mostra alguns aspectos relacionados ao desenvolvimento da solução, como linguagem de programação, banco de dados e UX. 
 
-<p align="center">
-<img src="https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2022-06-17-Hackathon-Banco-Safra/9-denv.png?raw=true" alt="Resumo dos aspectos relacionados ao desenvolvimento da OpenCredit" width="600"/>
-<br> 
-Figura 9: Resumo dos aspectos relacionados ao desenvolvimento da OpenCredit.
-</p>
+<div style="text-align:center;">
+  <img src="https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2022-06-17-Hackathon-Banco-Safra/9-denv.png?raw=true" alt="Resumo dos aspectos relacionados ao desenvolvimento da OpenCredit" style="width:700px">
+  <br>
+  Figura 9: Resumo dos aspectos relacionados ao desenvolvimento da OpenCredit.
+</div>
 
 As Técnicas e tecnologias utilizadas
 
@@ -126,6 +126,12 @@ As Técnicas e tecnologias utilizadas
 - **Orientação a objeto**
 
 Alguns detalhes das funcionalidades da API criada e disponível no [Github](https://github.com/gallileugenesis/Hackathon_Safra).
+
+<div style="text-align:center;">
+  <img src="https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2022-06-17-Hackathon-Banco-Safra/10-tec.png?raw=true" alt="Algumas funcionalidades da API" style="width:700px">
+  <br>
+  Figura 10: Algumas funcionalidades da API.
+</div>
 
 A **api_openbanking.py** consiste em um arquivo python com as seguintes classes/ funções:
 
@@ -157,6 +163,11 @@ Por fim, o projeto OpenCredit foi desenvolvido pela seguinte equipe:
 - Leonardo Carvalho
 
 Todo o projeto e seus detalhes estão disponíveis no Github, que você pode acessar clicando [aqui](https://github.com/gallileugenesis/Hackathon_Safra).
+
+Muito obrigado por ler esse artigo. 
+
+Caso tenha interesse, você pode me encontrar no [GitHub](https://github.com/gallileugenesis) e [Linkedin](https://www.linkedin.com/in/gallileugenesis/).
+
 
 Muito obrigado por ler esse artigo. 
 

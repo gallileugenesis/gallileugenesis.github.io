@@ -491,6 +491,6 @@ plt.ylabel("Y")
 
 
     
-![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/blog/2023-09-21-Machine-Learning-Examples-with-Scikit-Learn/output_26_1.png?raw=true)
+![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2023-09-21-Machine-Learning-Examples-with-Scikit-Learn/output_26_1.png?raw=true)
     
 

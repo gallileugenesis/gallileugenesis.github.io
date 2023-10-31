@@ -11,7 +11,7 @@ tags: [data science, extração de texto]
 **Nota:** Todo o código está disponível no [Github](https://github.com/gallileugenesis/PDF-to-text)
 
 
-A capacidade de converter o conteúdo de um arquivo PDF da web em texto é uma habilidade fundamental para diversas aplicações, incluindo análise de texto, extração de informações e processamento de linguagem natural. Neste tutorial, mostraremos como realizar essa tarefa de forma eficiente usando Python.
+A capacidade de converter o conteúdo de um arquivo PDF da web em texto é uma habilidade fundamental para diversas aplicações, incluindo análise de texto, extração de informações e processamento de linguagem natural. Neste tutorial, mostraremos como realizar essa tarefa de forma simples e eficiente usando Python.
 
 ## Passo 1: Baixar o arquivo PDF da web
 O primeiro passo é baixar o arquivo PDF da web. Podemos usar a biblioteca requests para realizar o download do arquivo a partir de uma URL:

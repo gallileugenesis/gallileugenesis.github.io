@@ -5,6 +5,8 @@ categories: [Blog]
 tags: [data science, extração de texto]
 ---
 
+![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2023-10-24-PDF-to-text/cover-image.jpeg?raw=true)
+
 
 **Nota:** Todo o código está disponível no [Github](https://github.com/gallileugenesis/PDF-to-text)
 

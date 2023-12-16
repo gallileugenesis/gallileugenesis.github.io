@@ -5,13 +5,13 @@ categories: [Projetos]
 tags: [data science, machine learning, NLP, LLM]
 ---
 
-![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2023-12-16-text-summarization-with-gpt/header_image.png?raw=true)
+![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2023-12-15-text-summarization-with-gpt/header_image.png?raw=true)
 
 
 **Nota:** Todo o código está disponível no [Github](https://github.com/gallileugenesis/text-summarization-with-gpt)
 
 
-Bem-vindo ao nosso blog técnico onde exploramos as últimas inovações no campo da ciência de dados e aprendizado de máquina. Hoje, vamos compartilhar o projeto de um sumarizador de texto alimentado pelos mais avançados modelos de linguagem natural da OpenAI, o GPT-3.5 e GPT-4.
+Bem-vindo ao nosso blog técnico onde exploramos temos como inovação e técnologia nos campos da ciência de dados e aprendizado de máquina. Hoje, vamos compartilhar o projeto de um sumarizador de texto alimentado pelos mais avançados modelos de linguagem natural da OpenAI, o GPT-3.5 e GPT-4.
 
 ## Visão Geral do Projeto
 

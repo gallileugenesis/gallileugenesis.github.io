@@ -36,9 +36,9 @@ client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 def generate_summarizer(
     model,
     max_tokens,
-    temperature,
     top_p,
     frequency_penalty,
+    temperature,
     prompt,
     person_type,
 ):
@@ -55,6 +55,24 @@ def generate_summarizer(
     )
     return chat.choices[0].message.content
 ```
+
+A função generate_summarizer utiliza vários parâmetros para gerar resumos usando a API da OpenAI. Cada parâmetro tem um propósito específico para controlar como a geração de texto é realizada:
+
+- **model:** Este parâmetro especifica qual modelo de linguagem da OpenAI será usado para gerar o texto. Modelos diferentes podem incluir versões como "gpt-3.5-turbo" ou "gpt-4", que se referem às versões e capacidades do modelo de linguagem da OpenAI.
+
+- **max_tokens:** Define o número máximo de tokens (palavras ou peças de palavras) que podem ser gerados pelo modelo. Um "token" pode ser uma palavra inteira ou parte de uma palavra, por isso não é exatamente o mesmo que a contagem de palavras. Este limite ajuda a controlar o comprimento do texto de saída.
+
+- **top_p (Nucleus Sampling):** É um método de amostragem que considera apenas as previsões mais prováveis do modelo. O valor de top_p define o limite para essas previsões. Por exemplo, um top_p de 0.1 significa que apenas as previsões que constituem os 10% superiores em termos de probabilidade serão consideradas para a geração do texto.
+
+- **frequency_penalty:** Este parâmetro ajuda a evitar a repetição. Um valor positivo desencoraja a repetição de palavras ou frases já usadas, enquanto um valor negativo pode encorajar a repetição. Um valor de 0 significa que não há penalidade de frequência aplicada.
+
+- **temperature:** Este parâmetro controla o nível de aleatoriedade ou criatividade na resposta do modelo. Uma temperatura mais alta (próxima de 1) resulta em respostas mais variadas e criativas, enquanto uma temperatura mais baixa (próxima de 0) gera respostas mais previsíveis e conservadoras.
+
+- **prompt:** O texto de entrada que serve como ponto de partida para o modelo gerar o resumo. Este é o texto que você deseja resumir.
+
+- **person_type:** Este parâmetro é usado para personalizar a saída do modelo com base no tipo de pessoa para quem o resumo é destinado, como "cientista", "estudante", etc. Isso é útil para ajustar o estilo e o nível de detalhe do resumo de acordo com o público-alvo.
+
+Esses parâmetros permitem uma grande flexibilidade e personalização no processo de geração de texto, tornando a ferramenta adaptável a uma variedade de necessidades e contextos de sumarização.
 
 **Obs:** Note que para utilizar o modelo é necessário a chave de API fornecida pela OpenAI.
 

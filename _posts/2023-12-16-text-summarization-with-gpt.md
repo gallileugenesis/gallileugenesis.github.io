@@ -1,6 +1,6 @@
 ---
 title:  "Projeto de Sumarizador de Texto com GPT"
-date:   2023-12-16 12:00:00 -500
+date:   2023-12-15 12:00:00 -500
 categories: [Projetos]
 tags: [data science, machine learning, NLP, LLM]
 ---
@@ -10,8 +10,6 @@ tags: [data science, machine learning, NLP, LLM]
 
 **Nota:** Todo o código está disponível no [Github](https://github.com/gallileugenesis/text-summarization-with-gpt)
 
-
-# Blog Técnico para Cientista de Dados: Apresentando o Projeto de Sumarizador de Texto com GPT
 
 Bem-vindo ao nosso blog técnico onde exploramos as últimas inovações no campo da ciência de dados e aprendizado de máquina. Hoje, estamos empolgados para compartilhar um projeto recente: um sumarizador de texto alimentado por modelos de linguagem avançados da OpenAI, como o GPT-3.5 e GPT-4.
 

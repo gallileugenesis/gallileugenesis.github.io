@@ -25,6 +25,7 @@ O objetivo deste projeto é criar uma ferramenta que possa resumir textos extens
 O backend deste projeto é construído em Python e faz uso da API da OpenAI para acessar os modelos GPT. O script summarizer_model.py é responsável por configurar a conexão com a API e definir a função de sumarização. Veja abaixo o código-chave do backend:
 
 ```python
+
 from openai import OpenAI
 import os
 from dotenv import load_dotenv
@@ -53,7 +54,7 @@ def generate_summarizer(
         ],
     )
     return chat.choices[0].message.content
-
+```
 
 ### A Interface do Sumarizador
 

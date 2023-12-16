@@ -56,7 +56,7 @@ def generate_summarizer(
     return chat.choices[0].message.content
 ```
 
-A função generate_summarizer utiliza vários parâmetros para gerar resumos usando a API da OpenAI. Cada parâmetro tem um propósito específico para controlar como a geração de texto é realizada:
+A função *generate_summarizer* utiliza vários parâmetros para gerar resumos usando a API da OpenAI. Cada parâmetro tem um propósito específico para controlar como a geração de texto é realizada:
 
 - **model:** Este parâmetro especifica qual modelo de linguagem da OpenAI será usado para gerar o texto. Modelos diferentes podem incluir versões como "gpt-3.5-turbo" ou "gpt-4", que se referem às versões e capacidades do modelo de linguagem da OpenAI.
 
@@ -76,9 +76,9 @@ Esses parâmetros permitem uma grande flexibilidade e personalização no proces
 
 **Obs:** Note que para utilizar o modelo é necessário a chave de API fornecida pela OpenAI.
 
-### A Interface do Sumarizador
+### Frontend
 
-![Interface do Sumarizador](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2023-12-15-text-summarization-with-gpt/interface.jpeg?raw=true)
+![Interface do Sumarizador](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2023-12-15-text-summarization-with-gpt/interface.png?raw=true)
 
 A interface do usuário foi desenhada para ser intuitiva e fácil de usar. Os usuários podem escolher entre diferentes modelos de linguagem, ajustar parâmetros de sumarização e inserir textos de várias maneiras.
 

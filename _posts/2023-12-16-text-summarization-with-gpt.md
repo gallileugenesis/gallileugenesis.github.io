@@ -1,6 +1,6 @@
 ---
 title:  "Como converter um arquivo PDF da web em texto"
-date:   2023-12-16 12:00:00 -500
+date:   2023-10-24 12:00:00 -500
 categories: [Blog]
 tags: [data science, extração de texto]
 ---
@@ -11,86 +11,62 @@ tags: [data science, extração de texto]
 **Nota:** Todo o código está disponível no [Github](https://github.com/gallileugenesis/PDF-to-text)
 
 
-A capacidade de converter o conteúdo de um arquivo PDF da web em texto é uma habilidade fundamental para diversas aplicações, incluindo análise de texto, extração de informações e processamento de linguagem natural. Neste tutorial, mostraremos como realizar essa tarefa de forma simples e eficiente usando Python.
+# Blog Técnico para Cientista de Dados: Apresentando o Projeto de Sumarizador de Texto com GPT
 
-## Passo 1: Baixar o arquivo PDF da web
-O primeiro passo é baixar o arquivo PDF da web. Podemos usar a biblioteca requests para realizar o download do arquivo a partir de uma URL:
+Bem-vindo ao nosso blog técnico onde exploramos as últimas inovações no campo da ciência de dados e aprendizado de máquina. Hoje, estamos empolgados para compartilhar um projeto recente: um sumarizador de texto alimentado por modelos de linguagem avançados da OpenAI, como o GPT-3.5 e GPT-4.
 
+## Visão Geral do Projeto
 
-```python
-import requests
+O objetivo deste projeto é criar uma ferramenta que possa resumir textos extensos de maneira eficiente e eficaz, utilizando a capacidade de compreensão e geração de texto dos modelos GPT. O projeto é composto por duas partes principais:
 
-# url do arquivo
-pdf_url = "https://www.ic.unicamp.br/~stolfi/misc/2012-02-13-domine-casmurrus.pdf"
+- **Backend (`summarizer_model.py`)**: Integração com a API da OpenAI para processamento e sumarização de texto.
+- **Frontend (`summarizer_app.py`)**: Uma interface web construída com Streamlit, oferecendo aos usuários uma forma interativa de usar a ferramenta.
 
-# Solicitação HTTP para baixar o PDF a partir do URL
-response = requests.get(pdf_url)
+### A Interface do Sumarizador
 
-# Abre um arquivo local chamado "Dom-Casmurro.pdf" 
-# e escreve o conteúdo do PDF nesse arquivo
-with open("Dom-Casmurro.pdf", "wb") as pdf_file:
-   pdf_file.write(response.content)
-```
+![Interface do Sumarizador](link_para_imagem_da_interface)
 
-## Passo 2: Converter o PDF em texto
-Para converter o arquivo PDF em texto utilizável, usamos a biblioteca PyPDF2. A seguir, o código que realiza essa conversão:
+A interface do usuário foi desenhada para ser intuitiva e fácil de usar. Os usuários podem escolher entre diferentes modelos de linguagem, ajustar parâmetros de sumarização e inserir textos de várias maneiras.
 
+## Funcionalidades Detalhadas
 
-```python
-import PyPDF2
+### Escolha de Modelos
 
-# Caminho o arquivo pdf
-pdf_path = "Dom-Casmurro.pdf"
+Os usuários têm a opção de escolher entre diferentes modelos de linguagem, como GPT-3.5 e GPT-4, adaptando-se às suas necessidades específicas de sumarização.
 
-pdf_text = ""
-with open(pdf_path, "rb") as pdf_file:
-   # Usamos PyPDF2 para ler o PDF
-   pdf_reader = PyPDF2.PdfReader(pdf_file)
+![Seleção de Modelos](link_para_imagem_selecao_modelos)
 
-   # Iteramos pelas páginas do PDF e extraímos o texto
-   for page in pdf_reader.pages:
-       pdf_text += page.extract_text()
-```
+### Personalização de Sumarização
 
-O conteúdo do pdf já está na variável pdf_text
+A ferramenta permite que os usuários definam o estilo de sumarização baseado no tipo de pessoa (cientista, estudante, etc.), tornando os resumos mais personalizados.
 
+![Estilos de Sumarização](link_para_imagem_estilos_sumarizacao)
 
-```python
-# exibir os primeiros 1000 caracteres do texto 
-pdf_text[0:1000]
-```
+### Ajuste de Hiperparâmetros
 
+Os usuários podem ajustar hiperparâmetros como tokens, temperatura, nucleus sampling e frequência de penalidade para refinar os resultados da sumarização.
 
+![Ajuste de Hiperparâmetros](link_para_imagem_ajuste_hiperparametros)
 
+### Entrada de Texto e Upload de Arquivos
 
-    'Dom Casmurro\nMachado de Assis\n1899\nVers˜ao Preliminar\n2012-02-13\nI\nDo titulo.\nUma noite destas, vindo da cidade para o Engenho\nNovo, encontrei no trem da Central um rapaz aqui do\nbairro, que eu conhe¸ co de vista e de chap´ eo. Comprimentou-\nme, sentou-se ao p´ e de mim, falou da lua e dos ministros,\ne acabou recitando-me versos. A viagem era curta, e\nos versos p´ ode ser que n˜ ao fossem inteiramente maus.\nSuccedeu, por´ em, que como eu estava can¸ cado, fechei os\nolhos tres ou quatro vezes; tanto bastou para que elle\ninterrompesse a leitura e mettesse os versos no bolso.\n— Continue, disse eu accordando.\n— J´ a acabei, murmurou elle.\n— S˜ ao muito bonitos.\nVi-lhe fazer um gesto para tiral-os outra vez do bolso,\nmas n˜ ao passou do gesto; estava amuado. No dia seguinte\nentrou a dizer de mim nomes feios, e acabou alcunhando-\nmeDom Casmurro . Os visinhos, que n˜ ao gostam dos\nmeus h´ abitos reclusos e calados, deram curso ´ a alcu-\nnha, que aﬁnal pegou. Nem por isso me zanguei. Con-\ntei '
+Além de digitar o texto diretamente, os usuários podem carregar arquivos em formatos como .txt, .pdf e .docx para sumarização.
 
+![Upload de Arquivos](link_para_imagem_upload_arquivos)
 
+## Como o Sumarizador Funciona
 
-**Obs:** O caractere '\n' representa uma quebra de linha. Ele é chamado de caractere de escape de nova linha ou simplesmente um caractere de nova linha.
+1. **Entrada de Texto**: O usuário insere o texto ou carrega um arquivo.
+2. **Processamento**: O backend envia o texto para o modelo GPT escolhido, processando-o de acordo com os parâmetros definidos.
+3. **Geração de Sumário**: O modelo gera um sumário que é então exibido na interface.
 
+## Tecnologias Utilizadas
 
-## Passo 3: Salvar o texto em um arquivo *.txt*
+- **Python**: Linguagem de programação para o desenvolvimento do backend e frontend.
+- **OpenAI API**: Para acessar os modelos GPT.
+- **Streamlit**: Para construir a interface web interativa.
+- **python-dotenv**: Para gerenciar variáveis de ambiente.
 
-Adicionalmente, você pode querer salvar o texto em um arquivo *.txt*.
+## Conclusão
 
-
-```python
-# Abrimos um arquivo de texto chamado "Dom-Casmurro.txt" no modo de escrita ('w') 
-with open("Dom-Casmurro.txt", "w", encoding="utf-8") as txt_file:
-   # Escrevemos o texto extraído nele
-   txt_file.write(pdf_text)
-```
-
-## Passo 4: Ler o conteúdo do arquivo *.txt*
-
-Para ler o conteúdo do arquivo *.txt* basta executar o código a seguir.
-
-
-```python
-with open("Dom-Casmurro.txt", "r", encoding="utf-8") as txt_file:
-   # Lê o texto do arquivo de texto que foi convertido a partir do PDF
-   pdf_text = txt_file.read()
-```
-
-Agora você tem o conteúdo do PDF convertido em texto, pronto para análises adicionais ou qualquer outra aplicação de processamento de texto que desejar, usando, por exemplo, bibliotecas como o NLTK.
+Este projeto ilustra a potência dos modelos de linguagem modernos na tarefa de sumarização de texto. Com sua interface fácil de usar e a capacidade de personalização, ele representa um grande avanço para profissionais que precisam de resumos rápidos e eficientes de grandes volumes de texto.

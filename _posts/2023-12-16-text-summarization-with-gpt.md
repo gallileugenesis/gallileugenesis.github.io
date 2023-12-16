@@ -13,7 +13,7 @@ tags: [data science, GPT, NPL, LLM]
 
 # Sumarizador de Texto com GPT
 
-Bem-vindo ao nosso blog técnico onde exploramos as últimas inovações no campo da ciência de dados e aprendizado de máquina. Hoje, estamos empolgados para compartilhar um projeto recente: um sumarizador de texto alimentado por modelos de linguagem avançados da OpenAI, como o GPT-3.5 e GPT-4.
+Bem-vindo ao nosso blog técnico onde exploramos as últimas inovações no campo da ciência de dados e aprendizado de máquina. Hoje, vamos compartilhar um projeto recente: um sumarizador de texto alimentado pelos mais avançados modelos de linguagem natural da OpenAI, o GPT-3.5 e GPT-4.
 
 ## Visão Geral do Projeto
 

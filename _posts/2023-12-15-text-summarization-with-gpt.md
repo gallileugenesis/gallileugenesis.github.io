@@ -193,7 +193,3 @@ Além de digitar o texto diretamente, os usuários podem carregar arquivos em fo
 - **Streamlit**: Para construir a interface web interativa.
 - **python-dotenv**: Para gerenciar variáveis de ambiente.
 
-## Conclusão
-
-Este projeto ilustra a potência dos modelos de linguagem modernos na tarefa de sumarização de texto. Com sua interface fácil de usar e a capacidade de personalização, ele representa um grande avanço para profissionais que precisam de resumos rápidos e eficientes de grandes volumes de texto.
-

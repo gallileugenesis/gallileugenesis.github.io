@@ -1,6 +1,6 @@
 ---
 title:  "Projeto de Sumarizador de Texto com GPT"
-date:   2023-10-24 12:00:00 -500
+date:   2023-12-16 12:00:00 -500
 categories: [Projetos]
 tags: [data science, machine learning, NLP, LLM]
 ---

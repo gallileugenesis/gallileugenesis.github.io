@@ -5,7 +5,7 @@ categories: [Projetos]
 tags: [data science, GPT, NPL, LLM]
 ---
 
-![png](https://github.com/gallileugenesis/text-summarization-with-gpt/blob/main/images/header_image.png?raw=true)
+![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2023-12-16-text-summarization-with-gpt/header_image.png?raw=true)
 
 
 **Nota:** Todo o código está disponível no [Github](https://github.com/gallileugenesis/text-summarization-with-gpt)

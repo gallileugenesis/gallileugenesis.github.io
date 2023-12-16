@@ -169,8 +169,3 @@ Muito obrigado por ler esse artigo.
 Caso tenha interesse, você pode me encontrar no [GitHub](https://github.com/gallileugenesis) e [Linkedin](https://www.linkedin.com/in/gallileugenesis/).
 
 
-Muito obrigado por ler esse artigo. 
-
-Caso tenha interesse, você pode me encontrar no [GitHub](https://github.com/gallileugenesis) e [Linkedin](https://www.linkedin.com/in/gallileugenesis/).
-
-

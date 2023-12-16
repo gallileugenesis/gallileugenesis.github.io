@@ -56,6 +56,8 @@ def generate_summarizer(
     return chat.choices[0].message.content
 ```
 
+**Obs:** Note que para utilizar o modelo é necessário a chave de API fornecida pela OpenAI.
+
 ### A Interface do Sumarizador
 
 ![Interface do Sumarizador](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2023-12-15-text-summarization-with-gpt/interface.jpeg?raw=true)

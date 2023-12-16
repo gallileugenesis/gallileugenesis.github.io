@@ -22,7 +22,7 @@ O objetivo deste projeto é criar uma ferramenta que possa resumir textos extens
 
 ### A Interface do Sumarizador
 
-![Interface do Sumarizador](link_para_imagem_da_interface)
+![Interface do Sumarizador](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2023-12-15-text-summarization-with-gpt/interface.jpeg?raw=true)
 
 A interface do usuário foi desenhada para ser intuitiva e fácil de usar. Os usuários podem escolher entre diferentes modelos de linguagem, ajustar parâmetros de sumarização e inserir textos de várias maneiras.
 

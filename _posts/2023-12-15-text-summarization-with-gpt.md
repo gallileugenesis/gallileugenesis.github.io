@@ -20,6 +20,41 @@ O objetivo deste projeto é criar uma ferramenta que possa resumir textos extens
 - **Backend (`summarizer_model.py`)**: Integração com a API da OpenAI para processamento e sumarização de texto.
 - **Frontend (`summarizer_app.py`)**: Uma interface web construída com Streamlit, oferecendo aos usuários uma forma interativa de usar a ferramenta.
 
+### Backend
+
+O backend deste projeto é construído em Python e faz uso da API da OpenAI para acessar os modelos GPT. O script summarizer_model.py é responsável por configurar a conexão com a API e definir a função de sumarização. Veja abaixo o código-chave do backend:
+
+```python
+from openai import OpenAI
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+
+def generate_summarizer(
+    model,
+    max_tokens,
+    temperature,
+    top_p,
+    frequency_penalty,
+    prompt,
+    person_type,
+):
+    chat = client.chat.completions.create(
+        model=model,
+        max_tokens=max_tokens,
+        temperature=temperature,
+        top_p=top_p,
+        frequency_penalty=frequency_penalty,
+        messages=[
+         {"role": "system", "content": "You are a helpful assistant for text summarization."},
+         {"role": "user", "content": f"Summarize this for a {person_type}: {prompt}"},
+        ],
+    )
+    return chat.choices[0].message.content
+
+
 ### A Interface do Sumarizador
 
 ![Interface do Sumarizador](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2023-12-15-text-summarization-with-gpt/interface.jpeg?raw=true)

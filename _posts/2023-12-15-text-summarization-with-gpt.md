@@ -78,9 +78,9 @@ Esses parâmetros permitem uma grande flexibilidade e personalização no proces
 
 ### Frontend
 
-![Interface do Sumarizador](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2023-12-15-text-summarization-with-gpt/interface.png?raw=true)
+O frontend do projeto foi desenvolvido usando Streamlit, uma biblioteca Python que facilita a criação de aplicações web para análise de dados. Nessa interface os usuários podem escolher entre diferentes modelos de linguagem, ajustar parâmetros de sumarização e inserir textos escritos ou em arquivos.
 
-A interface do usuário foi desenhada para ser intuitiva e fácil de usar. Os usuários podem escolher entre diferentes modelos de linguagem, ajustar parâmetros de sumarização e inserir textos de várias maneiras.
+![Interface do Sumarizador](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2023-12-15-text-summarization-with-gpt/interface.png?raw=true)
 
 ## Funcionalidades Detalhadas
 

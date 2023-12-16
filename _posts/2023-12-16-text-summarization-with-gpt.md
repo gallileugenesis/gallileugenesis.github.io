@@ -1,7 +1,7 @@
 ---
 title:  "Projeto de Sumarizador de Texto com GPT"
 date:   2023-10-24 12:00:00 -500
-categories: [Blog]
+categories: [Projetos]
 tags: [data science, extração de texto]
 ---
 

@@ -1,8 +1,8 @@
 ---
-title:  "Comments about the paper: Wu et al. 2021 - Recursively Summarizing Books with Human Feedback"
+title:  "Comentários sobre o artigo: Wu et al. 2021 - Recursively Summarizing Books with Human Feedback"
 date:   2024-03-06 12:00:00 -500
 categories: [Blog]
-tags: [data science, machine learning, NLP, LLM]
+tags: [data science, machine learning, research, NLP, LLM]
 ---
 
 ![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2024-03-06-comments-about-paper-wu-et-al-2021/header_image.png?raw=true)

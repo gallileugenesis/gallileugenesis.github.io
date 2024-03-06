@@ -1,7 +1,7 @@
 ---
-title:  "Projeto de Sumarizador de Texto com GPT"
-date:   2023-12-15 12:00:00 -500
-categories: [Projetos]
+title:  "Comments about the paper: Recursively Summarizing Books with Human Feedback"
+date:   2024-03-06 12:00:00 -500
+categories: [Blog]
 tags: [data science, machine learning, NLP, LLM]
 ---
 

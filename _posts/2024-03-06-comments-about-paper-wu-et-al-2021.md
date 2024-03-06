@@ -5,7 +5,7 @@ categories: [Blog]
 tags: [data science, machine learning, NLP, LLM]
 ---
 
-![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2023-12-15-text-summarization-with-gpt/header_image.png?raw=true)
+![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2024-03-06-comments-about-paper-wu-et-al-2021/header_image.png?raw=true)
 
 
 Em inteligência artificial, o problema de alinhamento engloba as preocupações em garantir que os modelos de aprendizado de máquina atuem de acordo com as regras, normas e diretrizes humanas, definidas em um certo escopo, ou de acordo com princípios éticos mais universais.

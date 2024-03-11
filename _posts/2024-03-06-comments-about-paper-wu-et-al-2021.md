@@ -23,3 +23,7 @@ Os resultados mostraram que o modelo resultante gera resumos sensatos de livros 
 A figura abaixo mostram o fluxo do procedimento de resumo, proposto pelos autores. 
 
 ![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2024-03-06-comments-about-paper-wu-et-al-2021/image.png?raw=true)
+
+Primeiro o conteúdo do livro é decomposto em vários pedaços fixos (chunks) (altura 0). Na sequência, o modelo é treinado usando o algoritmo *behavioral cloning* (BC) e resumos dos chunks feitos por humanos. As ações de resumo,  feito pelo modelo ou por um humano, são representadas na ilustração do fluxo com o símbulo de um lápis.
+
+Posteriormente, os resumos gerados pelo modelo são avaliados por humanos e, a partir desse feedback, o modelo é treinado usando um modelo de recompensa. Na sequência, os resumos são concatenados para passar por mais uma rodada de resumos, que segue a mesma política e se repete até se resumir o livro inteiro. 

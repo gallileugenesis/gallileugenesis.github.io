@@ -22,4 +22,4 @@ Os resultados mostraram que o modelo resultante gera resumos sensatos de livros 
 
 A figura abaixo mostram o fluxo do procedimento de resumo, proposto pelos autores. 
 
-![alt text](image.png)
+![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2024-03-06-comments-about-paper-wu-et-al-2021/image.png?raw=true)

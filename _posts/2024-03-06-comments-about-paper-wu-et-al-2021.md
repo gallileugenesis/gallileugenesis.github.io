@@ -16,6 +16,10 @@ Evidentemente, isso se torna um desafio quando lidamos com uma solução escalá
 
 No artigo [Recursively Summarizing Books with Human Feedback](https://arxiv.org/abs/2109.10862), os autores propuseram uma abordagem interessante para superar esse desafio, no caso de resumos de livros inteiros: eles combinaram aprendizagem por reforço a partir de feedback humano e decomposição recursiva de tarefas.
 
-Obter o feedback humano para o resumo de um livro inteiro seria demasiado trabalhoso, já que um ser humano precisaria ler o livro inteiro, o que levaria muitas horas. É ai que entra a decomposição recursiva de tarefas: basicamente o que se faz é dividir uma tarefa difícil em tarefas mais fáceis. Neste caso, o conteúdo do livro inteiro é subdivido em vários trechos mais curtos, sobre o qual o modelo realiza o resumo.  Isso permite que os humanos avaliem os resumos dos modelos mais rapidamente, usando resumos de partes menores do livro, em vez de ler o texto fonte.
+Obter o feedback humano para o resumo de um livro inteiro seria demasiado trabalhoso, já que um ser humano precisaria ler o livro inteiro, o que levaria muitas horas. É ai que entra a decomposição recursiva de tarefas: basicamente, o que se faz é dividir uma tarefa difícil em tarefas mais fáceis. Neste caso, o conteúdo do livro inteiro é subdivido em vários trechos mais curtos, sobre o qual o modelo realiza o resumo.  Isso permite que os humanos avaliem os resumos dos modelos mais rapidamente, usando resumos de partes menores do livro, em vez de ler o texto fonte. Os resumos podem ser combinados e resumidos novamente seguindo a mesma lógica até que um resumo final seja obtido.
 
-Os resumos podem ser combinados e resumidos novamente seguindo a mesma lógica até que um resumo final seja obtido.
+Os resultados mostraram que o modelo resultante gera resumos sensatos de livros inteiros, igualando até mesmo a qualidade de resumos escritos por humanos em alguns casos (∼ 5% dos livros).
+
+A figura abaixo mostram o fluxo do procedimento de resumo, proposto pelos autores. 
+
+![alt text](image.png)

@@ -5,10 +5,19 @@ categories: [Blog]
 tags: [data science, machine learning, GNB]
 ---
 
+![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2024-03-06-comments-about-paper-wu-et-al-2021/header_image.png?raw=true)
 
-No vasto universo do aprendizado de máquina, os algoritmos Naive Bayes se destacam por sua simplicidade, eficiência e eficácia, especialmente em tarefas de classificação. Entre as variantes do Naive Bayes, o Modelo Gaussiano Naive Bayes (GNB) ocupa uma posição de destaque, graças à sua capacidade de trabalhar diretamente com dados contínuos, assumindo que os valores de cada característica são distribuídos segundo uma distribuição Gaussiana (normal). Este artigo explora em detalhes o funcionamento do GNB, sua concepção matemática, características, vantagens e desvantagens, culminando em uma aplicação prática utilizando tanto a implementação "from scratch" quanto a disponível na biblioteca scikit-learn.
+# Introdução
 
-No mundo do aprendizado de máquina, os modelos Naive Bayes são conhecidos por sua simplicidade e eficiência, sendo o Modelo Gaussiano Naive Bayes (GNB) uma variante popular quando se trata de dados contínuos. Neste artigo, vamos mergulhar na mecânica, matemática, vantagens e desvantagens do GNB, culminando com uma aplicação prática.
+Em Machine Learning, um problema de classificação consiste em prever alguma classe ou rótulo, com base em um conjunto de dados.
+
+Naive Bayes (NB) é um dos mais antigos algoritmos de classificação utilizados para esse fim, tendo sido desenvolvido na década de 50 do século passado. Ele tem algumas características que o tornam bastante popular: é fácil de entender, fácil de implementar e apresenta ótimos resultados, mesmo para problemas relativamente complexos.
+
+A base matemática de sua aplicação é, como você deve supor, o teorema de Bayes, que foi proposto no século 18 pelo reverendo inglês [Thomas Bayes](https://en.wikipedia.org/wiki/Thomas_Bayes) (1701–1761). Ele propôs esse teorema com o humilde objetivo de provar a existência de Deus (não se sabe se ele conseguiu).
+
+No vasto universo do aprendizado de máquina, os algoritmos Naive Bayes se destacam por sua simplicidade, eficiência e eficácia, especialmente em tarefas de classificação. Entre as variantes do Naive Bayes, o Modelo Gaussiano Naive Bayes (GNB) ocupa uma posição de destaque, graças à sua capacidade de trabalhar diretamente com dados contínuos, assumindo que os valores de cada característica são distribuídos segundo uma distribuição Gaussiana ou [normal](https://en.wikipedia.org/wiki/Normal_distribution). 
+
+Este artigo explora em detalhes o funcionamento do GNB, sua concepção matemática, características, vantagens e desvantagens.
 
 ## Fundamentos Matemáticos do GNB
 

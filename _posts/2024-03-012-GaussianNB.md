@@ -17,9 +17,16 @@ A base matemática de sua aplicação é, como você deve supor, o teorema de Ba
 
 No vasto universo do aprendizado de máquina, os algoritmos Naive Bayes se destacam por sua simplicidade, eficiência e eficácia, especialmente em tarefas de classificação. Entre as variantes do Naive Bayes, o Modelo Gaussiano Naive Bayes (GNB) ocupa uma posição de destaque, graças à sua capacidade de trabalhar diretamente com dados contínuos, assumindo que os valores de cada característica são distribuídos segundo uma distribuição Gaussiana ou [normal](https://en.wikipedia.org/wiki/Normal_distribution). 
 
-Este artigo explora em detalhes o funcionamento do GNB, sua concepção matemática, características, vantagens e desvantagens.
+Este artigo explora em detalhes o funcionamento do GNB, sua fundamentação matemática, características, vantagens e desvantagens. No final, faremos uma aplicação prática desse algoritmo.
 
 ## Fundamentos Matemáticos do GNB
+
+A ideia básica de um algorítimo de classificação é que ele consiga, com base em conjunto de dados de treinamento ***(𝑋,y)*** usado para ajustar o modelo, aprender e atribuir corretamente uma classe para novos valores de entrada (valores inda não observados pelo modelo). Em outras palavras, um algoritmo de classificação cria uma função matemática ***(𝑦=𝑓(𝑥))*** que, ajustada pelos dados de treinamento, mapeia um certo conjunto de dados ***X*** (dados de entrada) para um outro conjunto de dados ***y*** (classes).
+
+Podemos tratar esse problema de classificação probabilisticamente, avaliando a probabilidade condicional da ocorrência de uma classe ***𝑦_k***, dado o conjunto de dados ***𝑋***. Matematicamente, isso pode ser escrito da seguinte forma:
+
+EQUAÇÂO
+
 
 O GNB baseia-se no Teorema de Bayes para prever a classe de uma observação. Assume-se que os valores dos atributos seguem uma distribuição gaussiana. A probabilidade de uma característica, dado que pertence a uma classe específica, é modelada pela distribuição Gaussiana:
 

@@ -18,12 +18,14 @@ No artigo [Recursively Summarizing Books with Human Feedback](https://arxiv.org/
 
 Obter o feedback humano para o resumo de um livro inteiro seria demasiado trabalhoso, já que um ser humano precisaria ler o livro inteiro, o que levaria muitas horas. É ai que entra a decomposição recursiva de tarefas: basicamente, o que se faz é dividir uma tarefa difícil em tarefas mais fáceis. Neste caso, o conteúdo do livro inteiro é subdivido em vários trechos mais curtos, sobre o qual o modelo realiza o resumo.  Isso permite que os humanos avaliem os resumos dos modelos mais rapidamente, usando resumos de partes menores do livro, em vez de ler o texto fonte. Os resumos podem ser combinados e resumidos novamente seguindo a mesma lógica até que um resumo final seja obtido.
 
-Os resultados mostraram que o modelo resultante gera resumos sensatos de livros inteiros, igualando até mesmo a qualidade de resumos escritos por humanos em alguns casos (∼ 5% dos livros).
-
-A figura abaixo mostram o fluxo do procedimento de resumo, proposto pelos autores. 
+A figura abaixo mostra o fluxo do procedimento de resumo em forma de árvore, como proposto pelos autores. 
 
 ![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2024-03-06-comments-about-paper-wu-et-al-2021/image.png?raw=true)
 
 Primeiro o conteúdo do livro é decomposto em vários pedaços fixos (chunks) (altura 0). Na sequência, o modelo é treinado usando o algoritmo *behavioral cloning* (BC) e resumos dos chunks feitos por humanos. As ações de resumo,  feito pelo modelo ou por um humano, são representadas na ilustração do fluxo com o símbulo de um lápis.
 
 Posteriormente, os resumos gerados pelo modelo são avaliados por humanos e, a partir desse feedback, o modelo é treinado usando um modelo de recompensa. Na sequência, os resumos são concatenados para passar por mais uma rodada de resumos, que segue a mesma política e se repete até se resumir o livro inteiro. 
+
+Os autores reconhecem que com essa estrutura, alguns resumos intermediários podem não ser bem sucedidos por não ter um contexto adequado. Para lidar com esse problema, foi proposto concatenar resumos anteriores e coloca-los em contexto na mesma profundidade.  
+
+Os resultados mostraram que o modelo resultante gera resumos sensatos de livros inteiros, igualando até mesmo a qualidade de resumos escritos por humanos em alguns casos (∼ 5% dos livros).

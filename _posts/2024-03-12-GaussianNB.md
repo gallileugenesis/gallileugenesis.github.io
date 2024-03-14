@@ -58,6 +58,14 @@ P(y_k|X) = \frac{P(X|y_k)}{P(X)}
 \]
 </p>
 
+<p> 
+ou, de uma forma mais extensa:
+\[
+P(y_k|X) = \frac{P(x_1, x_2,...,x_m|y_k)}{P(x_1, x_2,...,x_m)}
+\]
+</p>
+
+
 O GNB baseia-se no Teorema de Bayes para prever a classe de uma observação. Assume-se que os valores dos atributos seguem uma distribuição gaussiana. A probabilidade de uma característica, dado que pertence a uma classe específica, é modelada pela distribuição Gaussiana:
 
 ```

@@ -28,6 +28,20 @@ Podemos tratar esse problema de classificação probabilisticamente, avaliando a
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
+<!-- Linking MathJax (put this in the header or somewhere at the beginning of your document) -->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<!-- Inline Equation Example -->
+<p>To display an inline equation, like \(E=mc^2\), you can write it directly into your paragraph.</p>
+
+<!-- Block Equation Example -->
+<p>For a block equation, use:</p>
+\[
+x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}
+\]
+
+
 ```
 $P(y_k|X) = P(y_k|X_1, X_2,...,X_m)$
 ```

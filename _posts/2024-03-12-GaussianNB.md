@@ -1,5 +1,5 @@
 ---
-title:  "Gaussiano Naive Bayes"
+title:  "Gaussiano Naive Bayes (Em construção)"
 date:   2024-03-12 12:00:00 -500
 categories: [Blog]
 tags: [data science, machine learning, models, GNB]

@@ -25,6 +25,26 @@ A ideia básica de um algorítimo de classificação é que ele consiga, com bas
 
 Podemos tratar esse problema de classificação probabilisticamente, avaliando a probabilidade condicional da ocorrência de uma classe ***𝑦k***, dado o conjunto de dados ***𝑋***. Matematicamente, isso pode ser escrito da seguinte forma:
 
+\begin{align*}
+a & = b \\
+X &\sim {\sf Norm}(10, 3) \\
+5 & \le 10
+\end{align*}
+
+$$\sum_{n=1}^{10} n^2$$
+
+h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
+
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
+
+![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}) 
+
+```math
+a^2+b^2=c^2
+```
+
+$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
+
 
 ```
 $P(y_k|X) = P(y_k|X_1, X_2,...,X_m)$

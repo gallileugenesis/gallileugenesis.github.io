@@ -9,16 +9,6 @@ tags: [data science, machine learning, models, GNB]
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-
-<script src="/js/mathjax-config.js" defer></script>
-<script type="text/javascript" id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
-</script>
-
-
-
 ![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2024-03-12-GaussianNB/header_image.jpeg?raw=true)
 
 
@@ -35,6 +25,7 @@ No vasto universo do aprendizado de máquina, os algoritmos NB se destacam por s
 Este artigo explora em detalhes o funcionamento do GNB, sua fundamentação matemática, características, vantagens e desvantagens. No final, faremos uma aplicação prática com a construção do zero em comparação com o modelo da biblioteca scikit-learn.
 
 ## Fundamentos Matemáticos do GNB
+
 <p>
 A ideia básica de um algorítimo de classificação é que ele consiga, com base em conjunto de dados de treinamento \((𝑋,y)\) usado para ajustar o modelo, aprender e atribuir corretamente uma classe para novos valores de entrada. Em outras palavras, um algoritmo de classificação cria uma função matemática \(𝑦=𝑓(𝑥)\) que, ajustada pelos dados de treinamento, mapeia um certo conjunto de dados de entrada \(X = [x_1, x_2,...,x_m]\) para um outro conjunto de dados \(y = [y_1,y_2,...,y_K]\), composto por \(K\) classes distintas.
 
@@ -47,29 +38,6 @@ Matematicamente, isso pode ser escrito da seguinte forma:
 P(y_k|X) = P(y_k|x_1, x_2,...,x_m)
 \]
 </p>
-
-<p>
-Matematicamente, isso pode ser escrito da seguinte forma:
-\begin{equation}
-P(y_k|X) = P(y_k|x_1, x_2,...,x_m)
-\label{eq:1}
-\end{equation}
-</p>
-
-$$e^{\pi i} + 1 = 0 \label{eqone}$$
-
-Let's go back to Eq. \eqref{eqone}.
-
-Let's write another equation:
-
-$$a + b = c \label{eqtwo}$$
-
-Here I'm going to write some filler .... 
-then make the window really short, 
-so that you can test references, and ...
-
-And now I want to reference both Eq.s \eqref{eqone} and \eqref{eqtwo}.
-
 
 <p> 
 Tudo o que temos que fazer é calcular essa probabilidade para todas as classes em \(y\), e a classe com maior probabilidade é escolhida. 

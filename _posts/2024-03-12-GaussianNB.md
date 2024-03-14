@@ -91,7 +91,13 @@ Com essa consideração, temos então o cálculo de uma probabilidade condiciona
 \[
 P(y_k|X) = \frac{P(x_1|y_k)P(x_2|y_k)...P(x_m|y_k)P(y_k)}{P(x_1)P(x_2)...P(x_m)}
 \]
+</p>
 
+<p>
+ou, de uma forma mais chique:
+\[
+P(y_k|X) = \frac{P(y_k) \prod_{i=1}^{m}P(x_i|y_k)}{P(x_1)P(x_2)...P(x_m)}
+\]
 </p>
 
 

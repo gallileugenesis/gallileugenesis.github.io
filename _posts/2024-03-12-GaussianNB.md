@@ -1,5 +1,5 @@
 ---
-title:  "Gaussiano Naive Bayes (Em construção)"
+title:  "Gaussiano Naive Bayes"
 date:   2024-03-12 12:00:00 -500
 categories: [Blog]
 tags: [data science, machine learning, models, GNB]
@@ -40,6 +40,7 @@ P(y_k|X) = P(y_k|x_1, x_2,...,x_m)
 Matematicamente, isso pode ser escrito da seguinte forma:
 \begin{equation}
 P(y_k|X) = P(y_k|x_1, x_2,...,x_m)
+\label{eq:1}
 \end{equation}
 </p>
 

@@ -17,8 +17,6 @@ tags: [data science, machine learning, models, GNB]
 
 ![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2024-03-12-GaussianNB/header_image.jpeg?raw=true)
 
-<div style="text-align: justify;">
-
 ## Introdução
 
 Em Machine Learning, um problema de classificação consiste em prever alguma classe ou rótulo, com base em um conjunto de dados.

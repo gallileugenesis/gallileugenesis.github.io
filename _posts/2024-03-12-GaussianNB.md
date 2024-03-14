@@ -25,11 +25,11 @@ A ideia básica de um algorítimo de classificação é que ele consiga, com bas
 
 Podemos tratar esse problema de classificação probabilisticamente, avaliando a probabilidade condicional da ocorrência de uma classe ***𝑦k***, dado o conjunto de dados ***𝑋***. Matematicamente, isso pode ser escrito da seguinte forma:
 
-\[
-y = \frac { \sum _ { i } w _ { i } y _ { i } } { \sum _ { i } w _ { i } } , i = 1,2 \ldots k
-\]
-
-$$\sum_{i=1}^n X_i$$
+Display math:
+```math
+e^{i\pi} + 1 = 0
+```
+and inline math $`a^2 + b^2 = c^2`$.
 
 ```
 $P(y_k|X) = P(y_k|X_1, X_2,...,X_m)$

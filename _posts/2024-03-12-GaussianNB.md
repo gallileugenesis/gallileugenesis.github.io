@@ -97,7 +97,8 @@ ou, de uma forma mais chique:
 P(y_k|X) = \dfrac{P(y_k) \prod_{i=1}^{m}P(x_i|y_k)}{P(x_1)P(x_2)...P(x_m)}
 \]
 
-<p>
+O denominador da expressão acima é constante para o cálculo das probabilidades condicionais de todas as \(K\) classes em \(y\). Logo, por uma questão de economia computacional, pode-se omitir essa parcela dos cálculos.
+
 Nesse caso, dizemos que \(𝑃(𝑦_k|𝑋)\) é proporcional a \(𝑃(x_1|𝑦_k)𝑃(x_2|𝑦_k)…𝑃(x_m|𝑦_k)P(y_k)\). 
 
 Matematicamente, escrevemos:
@@ -111,7 +112,6 @@ ou, como antes:
 P(y_k|X) \propto P(y_k)\prod_{i=1}^{m}P(x_i|y_k)
 \]
 
-O denominador da expressão acima é constante para o cálculo das probabilidades condicionais de todas as \(K\) classes em \(y\). Logo, por uma questão de economia computacional, pode-se omitir essa parcela dos cálculos.
 </p>
 
 

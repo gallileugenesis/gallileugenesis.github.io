@@ -9,13 +9,18 @@ tags: [data science, machine learning, models, GNB]
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-<script src="/js/mathjax-config.js" defer></script>
-<script type="text/javascript" id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
-</script>
+<script>
+  MathJax = {
+    tex: {
+      tags: 'ams'  // should be 'ams', 'none', or 'all'
+    }
+  };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 
 
 ![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2024-03-12-GaussianNB/header_image.jpeg?raw=true)
+
 
 ## Introdução
 
@@ -41,22 +46,6 @@ Matematicamente, isso pode ser escrito da seguinte forma:
 \[
 P(y_k|X) = P(y_k|x_1, x_2,...,x_m)
 \]
-</p>
-
-<p>
-$$e^{\pi i} + 1 = 0 \label{eqone}$$
-
-Let's go back to Eq. \eqref{eqone}.
-
-Let's write another equation:
-
-$$a + b = c \label{eqtwo}$$
-
-Here I'm going to write some filler .... 
-then make the window really short, 
-so that you can test references, and ...
-
-And now I want to reference both Eq.s \eqref{eqone} and \eqref{eqtwo}.
 </p>
 
 <p>

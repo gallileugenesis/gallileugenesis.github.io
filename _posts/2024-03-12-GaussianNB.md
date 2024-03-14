@@ -32,9 +32,7 @@ Podemos tratar esse problema de classificação probabilisticamente, avaliando a
 
 <p>Matematicamente, isso pode ser escrito da seguinte forma:
 \[
-
-P(y_k|X) = P(y_k|X_1, X_2,...,X_m)
-
+P(y_k|X) = P(y_k|x_1, x_2,...,x_m)
 \]
 </p>
 

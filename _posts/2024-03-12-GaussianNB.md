@@ -25,8 +25,10 @@ A ideia básica de um algorítimo de classificação é que ele consiga, com bas
 
 Podemos tratar esse problema de classificação probabilisticamente, avaliando a probabilidade condicional da ocorrência de uma classe ***𝑦k***, dado o conjunto de dados ***𝑋***. Matematicamente, isso pode ser escrito da seguinte forma:
 
+$\sqrt{3x-1}+(1+x)^2$
+
 ```
-$P(x_k|X) = P(x_k|X_1, X_2,...,X_m)$
+$P(y_k|X) = P(y_k|X_1, X_2,...,X_m)$
 ```
 
 

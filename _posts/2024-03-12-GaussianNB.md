@@ -126,7 +126,7 @@ Como já comentamos, essa probabilidade condicional (probabilidade a posteriori)
 <p>
 Sendo assim, a classe predita pelo modelo será dada por:
 \[
-y_{^} = P(y_k|X) = P(y_k)\prod_{i=1}^{m}P(x_i|y_k)
+\widehat{y} = P(y_k|X) = P(y_k)\prod_{i=1}^{m}P(x_i|y_k)
 \]
 
 </p>

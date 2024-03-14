@@ -38,4 +38,6 @@ Foram avaliados dois tamanhos de modelo 175B e 6B, ou seja, modelos com 175 bilh
 
 Um fato interessante é que a concordância entre os julgamentos humanos quanto à qualidade relativa dos resumos escritos por modelos foi de quase 80%.
 
-Os resultados mostraram que o modelo resultante gera resumos sensatos de livros inteiros, igualando até mesmo a qualidade de resumos escritos por humanos em alguns casos (∼ 5% dos livros).
+Os resultados mostram que os melhores modelos geraram resumos sensatos de livros inteiros, igualando até mesmo a qualidade de resumos escritos por humanos em alguns casos. Em aproximadamente 5% dos casos, os resumos do melhor modelo 175B receberam uma pontuação de 6 de 7, e mais de 15% receberam 5 de 7. No entanto, na média, os resumos dos modelos ainda são significativamente piores do que os resumos escritos por humanos.
+
+Um outro resultado interessante apresentado no trabalho foi de que as pontuações Likert para os resumos completos dos livros foram significativamente mais baixas do que as pontuações Likert de qualquer uma das tarefas individuais decompostas, ou seja, de resumos intermediários das frações do livro. Isso se deve ao fato de que os erros acumulados em cada profundidade são todos refletidos na pontuação completa do resumo do livro. 

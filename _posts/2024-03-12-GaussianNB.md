@@ -132,7 +132,7 @@ Sendo assim, a classe predita pelo modelo será dada por:
 Em muitas ocasiões, principalmente quando temos uma grande quantidade de dados, é conveniente expressarmos as probabilidades da equação anterior na forma de logaritmo.
 
 \[
-\widehat{y} = \arg\max_{y_k} P(y_k|X) = \arg\max_{y_k} ln(P(y_k)\prod_{i=1}^{m}P(x_i|y_k))
+\widehat{y} = \arg\max_{y_k} P(y_k|X) = \arg\max_{y_k} [ln(P(y_k)\prod_{i=1}^{m}P(x_i|y_k))]
 \]
 
 </p>

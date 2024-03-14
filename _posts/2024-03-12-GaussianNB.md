@@ -43,6 +43,7 @@ P(y_k|X) = P(y_k|x_1, x_2,...,x_m)
 \]
 </p>
 
+<p>
 $$e^{\pi i} + 1 = 0 \label{eqone}$$
 
 Let's go back to Eq. \eqref{eqone}.
@@ -56,7 +57,7 @@ then make the window really short,
 so that you can test references, and ...
 
 And now I want to reference both Eq.s \eqref{eqone} and \eqref{eqtwo}.
-
+</p>
 
 <p>
 Matematicamente, isso pode ser escrito da seguinte forma:

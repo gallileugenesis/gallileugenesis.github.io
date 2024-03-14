@@ -66,7 +66,7 @@ P(y_k|X) = \frac{P(x_1, x_2,...,x_m|y_k)P(y_k)}{P(x_1, x_2,...,x_m)}
 </p>
 
 <p>
-Nesse caso, a probabilidade de interesse, \(𝑃(𝑦_k|𝑋)\), é chamada probabilidade a posteriori, e \(𝑃(𝑦_k)\) probabilidade a priori. Já \(𝑃(X|𝑦_k)\) é a probabilidade de ocorrência dos dados de \(𝑋\), se a classe \(𝑦_k\) for verdadeira. Este termo é por vezes chamado verossimilhança (likelihood). E, por fim, 𝑃(X) é a probabilidade dos dados de \(X\), independentemente da classe em questão, também chamado de evidência.
+Nesse caso, a probabilidade de interesse, \(𝑃(𝑦_k|𝑋)\), é chamada probabilidade a Posteriori, e \(𝑃(𝑦_k)\) probabilidade a Priori. Já \(𝑃(X|𝑦_k)\) é a probabilidade de ocorrência dos dados de \(𝑋\), se a classe \(𝑦_k\) for verdadeira. Este termo é, por vezes, chamado Verossimilhança (Likelihood). E, por fim, \(𝑃(X)\) é a probabilidade dos dados de \(X\), independentemente da classe em questão, também chamado de Evidência.
 </p>
 
 

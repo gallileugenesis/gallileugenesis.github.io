@@ -1,5 +1,5 @@
 ---
-title:  "Tudo o que você precisa saber sobre Naive Bayes"
+title:  "Tudo o que você precisa saber sobre o algoritmo Naive Bayes"
 date:   2024-03-12 12:00:00 -500
 categories: [Blog]
 tags: [data science, machine learning, models, GNB]
@@ -140,6 +140,12 @@ Como o logaritmo do produto é igual à soma dos logaritmos, ficamos com:
 \[
 \widehat{y} = \arg\max_{y_k} [ln P(y_k) + \prod_{i=1}^{m}lnP(x_i|y_k)]
 \]
+
+Reparem que trocamos o produto de probabilidades por somas de probabilidades, o que é computacionalmente mais eficiente.
+</p>
+
+<p>
+Então, em resumo, tudo o que precisamos calcular para treinar o modelo são as probabilidade envolvidas na equação acima. Não há coeficientes que precisem ser ajustados via alguma algoritmo de otimização, como é comum em outros algoritmos de Machine Learning. Consequência? Temos um algoritmo de aprendizagem rápida e fácil implementação.
 </p>
 
 

@@ -36,6 +36,13 @@ P(y_k|X) = P(y_k|x_1, x_2,...,x_m)
 \]
 </p>
 
+<p>
+Matematicamente, isso pode ser escrito da seguinte forma:
+\begin{equation}
+P(y_k|X) = P(y_k|x_1, x_2,...,x_m)
+\end{equation}
+</p>
+
 <p> 
 Tudo o que temos que fazer é calcular essa probabilidade para todas as classes em \(y\), e a classe com maior probabilidade é escolhida. 
 </p>

@@ -98,7 +98,9 @@ P(y_k|X) = \dfrac{P(y_k) \prod_{i=1}^{m}P(x_i|y_k)}{P(x_1)P(x_2)...P(x_m)}
 \]
 
 <p>
-Nesse caso, dizemos que \(𝑃(𝑦_k|𝑋)\) é proporcional a \(𝑃(x_1|𝑦_k)𝑃(x_2|𝑦_k)…𝑃(x_m|𝑦_k)P(y_k)\). Matematicamente, escrevemos:
+Nesse caso, dizemos que \(𝑃(𝑦_k|𝑋)\) é proporcional a \(𝑃(x_1|𝑦_k)𝑃(x_2|𝑦_k)…𝑃(x_m|𝑦_k)P(y_k)\). 
+
+Matematicamente, escrevemos:
 
 \[
 P(y_k|X) \propto P(x_1|y_k)P(x_2|y_k)...P(x_m|y_k)P(y_k)

@@ -85,6 +85,16 @@ Bem, como já deu pra notar, a vida é séria e a guerra é dura. Precisamos sim
 Nesse momento você salta da sua confortável cadeira e branda revoltado "mas considerar a independência total entre todas as variáveis de \(𝑋\) é uma suposição bastante forte, tola pra ser mais preciso!". Sim, de fato é verdade, essa consideração é bastante ingênua, já que na prática não se pode esperar algo tão perfeito assim, principalmente em problemas complexos; e é justamente dai que vem o nome do método. No entanto, é surpreendente como o danado funciona bem quando a problemas reais.
 </p>
 
+<p>
+Com essa consideração, temos então o cálculo de uma probabilidade condicional com variáveis independentes, cujo numerador é composto pelas probabilidades condicionais de cada elemento de \(𝑋\) dado um elemento de \(y_k\), assim:
+
+\[
+P(y_k|X) = \frac{P(x_1|y_k)P(x_2|y_k)...P(x_m|y_k)P(y_k)}{P(x_1)P(x_2)...P(x_m)}
+\]
+
+</p>
+
+
 O GNB baseia-se no Teorema de Bayes para prever a classe de uma observação. Assume-se que os valores dos atributos seguem uma distribuição gaussiana. A probabilidade de uma característica, dado que pertence a uma classe específica, é modelada pela distribuição Gaussiana:
 
 ```

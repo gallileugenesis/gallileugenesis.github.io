@@ -19,13 +19,13 @@ Naive Bayes (NB) é um dos mais antigos algoritmos de classificação utilizados
 
 A base matemática de sua aplicação é, como você deve supor, o teorema de Bayes, que foi proposto no século 18 pelo reverendo inglês [Thomas Bayes](https://en.wikipedia.org/wiki/Thomas_Bayes) (1701–1761). Ele propôs esse teorema com o humilde objetivo de provar a existência de Deus (não se sabe se ele conseguiu).
 
-No vasto universo do aprendizado de máquina, os algoritmos Naive Bayes se destacam por sua simplicidade, eficiência e eficácia, especialmente em tarefas de classificação. Entre as variantes do Naive Bayes, o Modelo Gaussiano Naive Bayes (GNB) ocupa uma posição de destaque, graças à sua capacidade de trabalhar diretamente com dados contínuos, assumindo que os valores de cada característica são distribuídos segundo uma distribuição Gaussiana ou [normal](https://en.wikipedia.org/wiki/Normal_distribution). 
+No vasto universo do aprendizado de máquina, os algoritmos NB se destacam por sua simplicidade, eficiência e eficácia, especialmente em tarefas de classificação. Entre as variantes do Naive Bayes, o Modelo Gaussiano Naive Bayes (GNB) ocupa uma posição de destaque, graças à sua capacidade de trabalhar diretamente com dados contínuos, assumindo que os valores de cada característica são distribuídos segundo uma distribuição Gaussiana ou [normal](https://en.wikipedia.org/wiki/Normal_distribution). 
 
-Este artigo explora em detalhes o funcionamento do GNB, sua fundamentação matemática, características, vantagens e desvantagens. No final, faremos uma aplicação prática desse algoritmo.
+Este artigo explora em detalhes o funcionamento do GNB, sua fundamentação matemática, características, vantagens e desvantagens. No final, faremos uma aplicação prática com a construção do zero em comparação com o modelo da biblioteca scikit-learn.
 
 ## Fundamentos Matemáticos do GNB
 <p>
-A ideia básica de um algorítimo de classificação é que ele consiga, com base em conjunto de dados de treinamento \((𝑋,y)\) usado para ajustar o modelo, aprender e atribuir corretamente uma classe para novos valores de entrada (valores inda não observados pelo modelo). Em outras palavras, um algoritmo de classificação cria uma função matemática \((𝑦=𝑓(𝑥))\) que, ajustada pelos dados de treinamento, mapeia um certo conjunto de dados de entrada \(X = [x_1, x_2,...,x_m]\) para um outro conjunto de dados \(y = [y_1,y_2,...,y_K]\), composto por \(K\) classes distintas.
+A ideia básica de um algorítimo de classificação é que ele consiga, com base em conjunto de dados de treinamento \((𝑋,y)\) usado para ajustar o modelo, aprender e atribuir corretamente uma classe para novos valores de entrada. Em outras palavras, um algoritmo de classificação cria uma função matemática \(𝑦=𝑓(𝑥)\) que, ajustada pelos dados de treinamento, mapeia um certo conjunto de dados de entrada \(X = [x_1, x_2,...,x_m]\) para um outro conjunto de dados \(y = [y_1,y_2,...,y_K]\), composto por \(K\) classes distintas.
 
 Podemos tratar esse problema de classificação probabilisticamente, avaliando a probabilidade condicional da ocorrência de uma classe \(𝑦_k\), dado o conjunto de dados \(X\). 
 </p>

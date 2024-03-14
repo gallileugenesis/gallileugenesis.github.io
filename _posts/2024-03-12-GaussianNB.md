@@ -161,16 +161,16 @@ E disto surgem os três tipos de classificadores Naive Bayes:
     <li>Gaussian naive Bayes (GNB).</li>
 </ul>
 
+É importante frisar que, caso \(X\) possua recursos com diferentes tipos de dados, pode-se atribuir diferentes distribuições de probabilidades para cada um deles. 
 </p>
 
-É importante frisar que, caso X possua mais que uma entrada, dependendo do tipo de dado em cada entrada, pode-se atribuir diferentes distribuições de probabilidades para cada uma.
-É o caso, por exemplo, da nossa segunda tabela-exemplo, quando incluímos informações sobre a temperatura e unidade relativa do ar.
+<p>
 Outro ponto importante é que, apesar de serem as distribuições mais comumente usadas em um classificador Naive Bayes, se os dados de entrada são melhores descritos por outra distribuição de probabilidade, deve-se usá-la. Ou ainda, se não temos certeza sobre a distribuição de probabilidade que melhor descreve esses dados, pode-se usar um estimador de distribuição de probabilidades, também chamado, KDE (Kernel density estimation).
-E aqui findamos a descrição teórica do que é um Classificador Naive Bayes. No próximo artigo faremos uma aplicação prática em Python, com e sem o uso de bibliotecas e veremos qual o desempenho desse algorítimo.
-
+</p>
 
 ## Gaussian Naive Bayes
-O GNB baseia-se no Teorema de Bayes para prever a classe de uma observação. Assume-se que os valores dos atributos seguem uma distribuição gaussiana. A probabilidade de uma característica, dado que pertence a uma classe específica, é modelada pela distribuição Gaussiana:
+
+Como discutido anteriormente, a depender da natureza dos recursos de \(X\), pode-se assumir que estes sigam determinada distribuição de probabilidade. Quando se trata de dados contínuos, na maioria das vezes, assume-se que estes seguem uma distribuição de probabilidade Gaussiana. Nesse caso, as probabilidades na parcela do somatório na Equação 1, pode ser obtida pela Equação 2 abaixo:
 
 \[
 P(x_i|y) = (1 / sqrt(2 * pi * sigma_y^2)) * exp(-((x_i - mu_y)^2 / (2 * sigma_y^2)))

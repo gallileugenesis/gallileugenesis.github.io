@@ -96,7 +96,7 @@ P(y_k|X) = \frac{P(x_1|y_k)P(x_2|y_k)...P(x_m|y_k)P(y_k)}{P(x_1)P(x_2)...P(x_m)}
 <p>
 ou, de uma forma mais chique:
 \[
-P(y_k|X) = \frac{P(y_k) \prod_{i=1}^{m}P(x_i|y_k)}{P(x_1)P(x_2)...P(x_m)}
+P(y_k|X) = \dfrac{P(y_k) \prod_{i=1}^{m}P(x_i|y_k)}{P(x_1)P(x_2)...P(x_m)}
 \]
 
 O denominador da expressão acima é constante para o cálculo das probabilidades condicionais de todas as \(K\) classes em \(y\). Logo, por uma questão de economia computacional, pode-se omitir essa parcela dos cálculos.

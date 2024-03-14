@@ -26,7 +26,8 @@ A ideia básica de um algorítimo de classificação é que ele consiga, com bas
 Podemos tratar esse problema de classificação probabilisticamente, avaliando a probabilidade condicional da ocorrência de uma classe ***𝑦k***, dado o conjunto de dados ***𝑋***. Matematicamente, isso pode ser escrito da seguinte forma:
 
 <!-- Inline Equation Example -->
-<p>To display an inline equation, like \(E=mc^2\), you can write it directly into your paragraph.</p>
+<p>To display an inline equation, like \(E=mc^2\), you can write it directly into your paragraph.
+</p>
 
 <!-- Block Equation Example -->
 <p>For a block equation, use:

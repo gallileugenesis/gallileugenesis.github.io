@@ -22,7 +22,7 @@ A base matemática de sua aplicação é, como você deve supor, o teorema de Ba
 
 No vasto universo do aprendizado de máquina, os algoritmos NB se destacam por sua simplicidade, eficiência e eficácia, especialmente em tarefas de classificação. Entre as variantes do Naive Bayes, o Modelo Gaussiano Naive Bayes (GNB) ocupa uma posição de destaque, graças à sua capacidade de trabalhar diretamente com dados contínuos, assumindo que os valores de cada característica são distribuídos segundo uma distribuição Gaussiana ou [normal](https://en.wikipedia.org/wiki/Normal_distribution). 
 
-Este artigo explora em detalhes o funcionamento do GNB, sua fundamentação matemática, características, vantagens e desvantagens. No final, faremos uma aplicação prática com a construção do zero em comparação com o modelo da biblioteca scikit-learn.
+Este artigo explora em detalhes o funcionamento do NB, sua fundamentação matemática, características, vantagens e desvantagens. 
 
 ## Fundamentos Matemáticos do NB
 

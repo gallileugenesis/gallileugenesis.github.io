@@ -32,7 +32,8 @@ A ideia básica de um algorítimo de classificação é que ele consiga, com bas
 Podemos tratar esse problema de classificação probabilisticamente, avaliando a probabilidade condicional da ocorrência de uma classe \(𝑦_k\), dado o conjunto de dados \(X\). 
 </p>
 
-<p>Matematicamente, isso pode ser escrito da seguinte forma:
+<p>
+Matematicamente, isso pode ser escrito da seguinte forma:
 \[
 P(y_k|X) = P(y_k|x_1, x_2,...,x_m)
 \]
@@ -42,7 +43,6 @@ P(y_k|X) = P(y_k|x_1, x_2,...,x_m)
 Matematicamente, isso pode ser escrito da seguinte forma:
 \begin{equation}
 P(y_k|X) = P(y_k|x_1, x_2,...,x_m)
-\caption{Dual porosity model idealized.}
 \label{eq:1}
 \end{equation}
 </p>

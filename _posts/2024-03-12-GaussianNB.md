@@ -174,19 +174,19 @@ Outro ponto importante é que, apesar de serem as distribuições mais comumente
 Como discutido anteriormente, a depender da natureza dos recursos de \(X\), pode-se assumir que estes sigam determinada distribuição de probabilidade. Quando se trata de dados contínuos, na maioria das vezes, assume-se que estes seguem uma distribuição de probabilidade Gaussiana. Nesse caso, as probabilidades da  Verossimilhança (Likelihood) pode ser obtida pela equação abaixo:
 
 \[
-P(x_i|y) = (1 / sqrt(2 * pi * sigma_y^2)) * exp(-((x_i - mu_y)^2 / (2 * sigma_y^2)))
+P(x_i|y) = \dfrac{1}{sqrt(2 * pi * sigma_y^2)} * exp(-(\dfrac{(x_i - mu_y)^2}{(2 * sigma_y^2)}))
 \]
 
 Aqui, \(mu_y\) é a média dos valores de um atributo para a classe \(y\), e \(\sigma_y^2\) é a variância.
 </p>
 
-## Vantagens do GNB
+### Vantagens do GNB
 
 - **Eficiente com grandes dimensões de dados**
 - **Boa performance com um pequeno conjunto de dados**
 - **Trata bem dados contínuos**
 
-## Desvantagens do GNB
+### Desvantagens do GNB
 
 - **Suposição de independência entre os atributos**
 - **Sensibilidade a dados não representativos**

@@ -24,10 +24,11 @@ No vasto universo do aprendizado de máquina, os algoritmos Naive Bayes se desta
 Este artigo explora em detalhes o funcionamento do GNB, sua fundamentação matemática, características, vantagens e desvantagens. No final, faremos uma aplicação prática desse algoritmo.
 
 ## Fundamentos Matemáticos do GNB
-
-A ideia básica de um algorítimo de classificação é que ele consiga, com base em conjunto de dados de treinamento ***(𝑋,y)*** usado para ajustar o modelo, aprender e atribuir corretamente uma classe para novos valores de entrada (valores inda não observados pelo modelo). Em outras palavras, um algoritmo de classificação cria uma função matemática ***(𝑦=𝑓(𝑥))*** que, ajustada pelos dados de treinamento, mapeia um certo conjunto de dados ***X*** (dados de entrada) para um outro conjunto de dados ***y*** (classes).
+<p>
+A ideia básica de um algorítimo de classificação é que ele consiga, com base em conjunto de dados de treinamento \((𝑋,y)) ***(𝑋,y)*** usado para ajustar o modelo, aprender e atribuir corretamente uma classe para novos valores de entrada (valores inda não observados pelo modelo). Em outras palavras, um algoritmo de classificação cria uma função matemática ***(𝑦=𝑓(𝑥))*** que, ajustada pelos dados de treinamento, mapeia um certo conjunto de dados ***X*** (dados de entrada) para um outro conjunto de dados ***y*** (classes).
 
 Podemos tratar esse problema de classificação probabilisticamente, avaliando a probabilidade condicional da ocorrência de uma classe ***𝑦k***, dado o conjunto de dados ***𝑋***. Matematicamente, isso pode ser escrito da seguinte forma:
+</p>
 
 <!-- Inline Equation Example -->
 <p>To display an inline equation, like \(E=mc^2\), you can write it directly into your paragraph.</p>

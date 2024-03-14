@@ -155,9 +155,12 @@ Para aplicar o algoritmo NB em problemas reais, precisamos estimar uma distribui
 </p>
 <p>
 E disto surgem os três tipos de classificadores Naive Bayes:
-- Naive Bayes Binominal (NBB).
-- Naive Bayes multinomial (NBM).
-- Naive Bayes Gaussiano (NBG).
+<ul>
+    <li>Naive Bayes Binominal (NBB).</li>
+    <li>Naive Bayes multinomial (NBM).</li>
+    <li>Naive Bayes Gaussiano (NBG).</li>
+</ul>
+
 </p>
 
 É importante frisar que, caso X possua mais que uma entrada, dependendo do tipo de dado em cada entrada, pode-se atribuir diferentes distribuições de probabilidades para cada uma.

@@ -42,6 +42,7 @@ P(y_k|X) = P(y_k|x_1, x_2,...,x_m)
 Matematicamente, isso pode ser escrito da seguinte forma:
 \begin{equation}
 P(y_k|X) = P(y_k|x_1, x_2,...,x_m)
+\caption{Dual porosity model idealized.}
 \label{eq:1}
 \end{equation}
 </p>

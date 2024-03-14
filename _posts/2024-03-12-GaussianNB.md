@@ -114,14 +114,17 @@ ou, como antes:
 P(y_k|X) \propto P(y_k)\prod_{i=1}^{m}P(x_i|y_k)
 \]
 
+Pronto, com isso nós temos nosso classificador probabilístico Bayesiano hiper master plus+.
 </p>
+
+### Máxima Probabilidade a Posteriori
 
 
 O GNB baseia-se no Teorema de Bayes para prever a classe de uma observação. Assume-se que os valores dos atributos seguem uma distribuição gaussiana. A probabilidade de uma característica, dado que pertence a uma classe específica, é modelada pela distribuição Gaussiana:
 
-```
+\[
 P(x_i|y) = (1 / sqrt(2 * pi * sigma_y^2)) * exp(-((x_i - mu_y)^2 / (2 * sigma_y^2)))
-```
+\]
 
 Aqui, `mu_y` é a média dos valores de um atributo para a classe `y`, e `sigma_y^2` é a variância.
 

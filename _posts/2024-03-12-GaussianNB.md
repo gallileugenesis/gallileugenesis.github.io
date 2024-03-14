@@ -126,7 +126,7 @@ Como já comentamos, essa probabilidade condicional (probabilidade a posteriori)
 <p>
 Sendo assim, a classe predita pelo modelo será dada por:
 \[
-\widehat{y} = \arg\max_{y_k} P(y_k|X) = \arg\max_{y_k} P(y_k)\prod_{i=1}^{m}P(x_i|y_k), // k \in 1,2,..,K
+\widehat{y} = \arg\max_{y_k} P(y_k|X) = \arg\max_{y_k} P(y_k)\prod_{i=1}^{m}P(x_i|y_k)
 \]
 
 Em muitas ocasiões, principalmente quando temos uma grande quantidade de dados, é conveniente expressarmos as probabilidades da equação anterior na forma de logaritmo.
@@ -138,7 +138,7 @@ Em muitas ocasiões, principalmente quando temos uma grande quantidade de dados,
 Como o logaritmo do produto é igual à soma dos logaritmos, ficamos com:
 
 \[
-\widehat{y} = \arg\max_{y_k} [ln P(y_k) + \prod_{i=1}^{m}lnP(x_i|y_k)]
+\widehat{y} = \arg\max_{y_k} [ln P(y_k) + \sum_{i=1}^{m}lnP(x_i|y_k)]
 \]
 
 Reparem que trocamos o produto de probabilidades por somas de probabilidades, o que é computacionalmente mais eficiente.
@@ -170,13 +170,13 @@ Outro ponto importante é que, apesar de serem as distribuições mais comumente
 
 ## Gaussian Naive Bayes
 
-Como discutido anteriormente, a depender da natureza dos recursos de \(X\), pode-se assumir que estes sigam determinada distribuição de probabilidade. Quando se trata de dados contínuos, na maioria das vezes, assume-se que estes seguem uma distribuição de probabilidade Gaussiana. Nesse caso, as probabilidades na parcela do somatório na Equação 1, pode ser obtida pela Equação 2 abaixo:
+Como discutido anteriormente, a depender da natureza dos recursos de \(X\), pode-se assumir que estes sigam determinada distribuição de probabilidade. Quando se trata de dados contínuos, na maioria das vezes, assume-se que estes seguem uma distribuição de probabilidade Gaussiana. Nesse caso, as probabilidades da  Verossimilhança (Likelihood) pode ser obtida pela equação abaixo:
 
 \[
 P(x_i|y) = (1 / sqrt(2 * pi * sigma_y^2)) * exp(-((x_i - mu_y)^2 / (2 * sigma_y^2)))
 \]
 
-Aqui, `mu_y` é a média dos valores de um atributo para a classe `y`, e `sigma_y^2` é a variância.
+Aqui, \(mu_y\) é a média dos valores de um atributo para a classe \(y\), e \(\sigma_y^2\) é a variância.
 
 
 ## Vantagens do GNB

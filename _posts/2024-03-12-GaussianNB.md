@@ -72,7 +72,7 @@ Nesse caso, a probabilidade de interesse, \(𝑃(𝑦_k|𝑋)\), é chamada prob
 </p>
 
 <p>
-Em termos gerais, \(𝑃(𝑦_k)\) pode ser calculada via a frequência relativa de cada classe, no próprio conjunto de dados. No entanto, o cálculo da probabilidade conjunta \(P(x_1, x_2,...,x_m|y_k)\) não é trivial, pois todas as variáveis possuem interdependência e, portanto, precisamos estimar as distribuições de todas as combinações possíveis. Isso requer uma quantidade de dados muito grande o que, por sua vez, aumenta o esforço computacional necessário para se efetuar o cálculo do teorema de Bayes diretamente.
+Em termos gerais, \(𝑃(𝑦_k)\) pode ser calculada via a frequência relativa de cada classe no próprio conjunto de dados de treinamento. No entanto, o cálculo da probabilidade conjunta \(P(x_1, x_2,...,x_m|y_k)\) não é trivial, pois todas as variáveis possuem interdependência e, portanto, precisamos estimar as distribuições de todas as combinações possíveis. Isso requer uma quantidade de dados muito grande o que, por sua vez, aumenta o esforço computacional necessário para se efetuar o cálculo do teorema de Bayes diretamente.
 </p>
 
 ### Simplificação do Teorema de Bayes

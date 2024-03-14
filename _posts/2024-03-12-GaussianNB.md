@@ -129,7 +129,14 @@ Sendo assim, a classe predita pelo modelo será dada por:
 \widehat{y} = \arg\max_{y_k} P(y_k|X) = \arg\max_{y_k} P(y_k)\prod_{i=1}^{m}P(x_i|y_k)
 \]
 
+Em muitas ocasiões, principalmente quando temos uma grande quantidade de dados, é conveniente expressarmos as probabilidades da equação anterior na forma de logaritmo.
+
+\[
+\widehat{y} = \arg\max_{y_k} P(y_k|X) = \arg\max_{y_k} ln(P(y_k)\prod_{i=1}^{m}P(x_i|y_k))
+\]
+
 </p>
+
 
 O GNB baseia-se no Teorema de Bayes para prever a classe de uma observação. Assume-se que os valores dos atributos seguem uma distribuição gaussiana. A probabilidade de uma característica, dado que pertence a uma classe específica, é modelada pela distribuição Gaussiana:
 

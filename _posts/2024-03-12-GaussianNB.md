@@ -1,5 +1,5 @@
 ---
-title:  "Gaussiano Naive Bayes"
+title:  "Tudo o que você precisa saber sobre Naive Bayes"
 date:   2024-03-12 12:00:00 -500
 categories: [Blog]
 tags: [data science, machine learning, models, GNB]
@@ -24,7 +24,7 @@ No vasto universo do aprendizado de máquina, os algoritmos NB se destacam por s
 
 Este artigo explora em detalhes o funcionamento do GNB, sua fundamentação matemática, características, vantagens e desvantagens. No final, faremos uma aplicação prática com a construção do zero em comparação com o modelo da biblioteca scikit-learn.
 
-## Fundamentos Matemáticos do GNB
+## Fundamentos Matemáticos do NB
 
 <p>
 A ideia básica de um algorítimo de classificação é que ele consiga, com base em conjunto de dados de treinamento \((𝑋,y)\) usado para ajustar o modelo, aprender e atribuir corretamente uma classe para novos valores de entrada. Em outras palavras, um algoritmo de classificação cria uma função matemática \(𝑦=𝑓(𝑥)\) que, ajustada pelos dados de treinamento, mapeia um certo conjunto de dados de entrada \(X = [x_1, x_2,...,x_m]\) para um outro conjunto de dados \(y = [y_1,y_2,...,y_K]\), composto por \(K\) classes distintas.

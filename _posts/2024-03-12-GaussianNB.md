@@ -148,7 +148,25 @@ Reparem que trocamos o produto de probabilidades por somas de probabilidades, o 
 Então, em resumo, tudo o que precisamos calcular para treinar o modelo são as probabilidade envolvidas na equação acima. Não há coeficientes que precisem ser ajustados via alguma algoritmo de otimização, como é comum em outros algoritmos de Machine Learning. Consequência? Temos um algoritmo de aprendizagem rápida e fácil implementação.
 </p>
 
-## Gaussia Naive Bayes
+## Tipos de algoritmos NB
+
+<p>
+Para aplicar o algoritmo NB em problemas reais, precisamos estimar uma distribuição de probabilidades para os recursos de \(X\). Essa estimativa pode ser guiada pelo tipo de dado que compõe o recurso. Se as variável são categóricas binárias, usa-se uma distribuição binomial para representa-las. Caso haja multiclasses, usa-se uma distribuição multinomial. E, por fim, se estivermos lidando com dados contínuos, usa-se uma distribuição Gaussiana.
+</p>
+<p>
+E disto surgem os três tipos de classificadores Naive Bayes:
+- Naive Bayes Binominal (NBB).
+- Naive Bayes multinomial (NBM).
+- Naive Bayes Gaussiano (NBG).
+</p>
+
+É importante frisar que, caso X possua mais que uma entrada, dependendo do tipo de dado em cada entrada, pode-se atribuir diferentes distribuições de probabilidades para cada uma.
+É o caso, por exemplo, da nossa segunda tabela-exemplo, quando incluímos informações sobre a temperatura e unidade relativa do ar.
+Outro ponto importante é que, apesar de serem as distribuições mais comumente usadas em um classificador Naive Bayes, se os dados de entrada são melhores descritos por outra distribuição de probabilidade, deve-se usá-la. Ou ainda, se não temos certeza sobre a distribuição de probabilidade que melhor descreve esses dados, pode-se usar um estimador de distribuição de probabilidades, também chamado, KDE (Kernel density estimation).
+E aqui findamos a descrição teórica do que é um Classificador Naive Bayes. No próximo artigo faremos uma aplicação prática em Python, com e sem o uso de bibliotecas e veremos qual o desempenho desse algorítimo.
+
+
+## Gaussian Naive Bayes
 O GNB baseia-se no Teorema de Bayes para prever a classe de uma observação. Assume-se que os valores dos atributos seguem uma distribuição gaussiana. A probabilidade de uma característica, dado que pertence a uma classe específica, é modelada pela distribuição Gaussiana:
 
 \[

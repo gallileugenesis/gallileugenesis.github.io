@@ -27,15 +27,10 @@ Este artigo explora em detalhes o funcionamento do GNB, sua fundamentação mate
 <p>
 A ideia básica de um algorítimo de classificação é que ele consiga, com base em conjunto de dados de treinamento \((𝑋,y)\) usado para ajustar o modelo, aprender e atribuir corretamente uma classe para novos valores de entrada (valores inda não observados pelo modelo). Em outras palavras, um algoritmo de classificação cria uma função matemática \((𝑦=𝑓(𝑥))\) que, ajustada pelos dados de treinamento, mapeia um certo conjunto de dados \(X\) (dados de entrada) para um outro conjunto de dados \(y\) (classes).
 
-Podemos tratar esse problema de classificação probabilisticamente, avaliando a probabilidade condicional da ocorrência de uma classe \(𝑦_k\), dado o conjunto de dados \(X\). Matematicamente, isso pode ser escrito da seguinte forma:
+Podemos tratar esse problema de classificação probabilisticamente, avaliando a probabilidade condicional da ocorrência de uma classe \(𝑦_k\), dado o conjunto de dados \(X\). 
 </p>
 
-<!-- Inline Equation Example -->
-<p>To display an inline equation, like \(E=mc^2\), you can write it directly into your paragraph.</p>
-
-<!-- Block Equation Example -->
-
-<p>For a block equation, use:
+<p>Matematicamente, isso pode ser escrito da seguinte forma:
 \[
 
 P(y_k|X) = P(y_k|X_1, X_2,...,X_m)

@@ -2,7 +2,7 @@
 title:  "Gaussiano Naive Bayes"
 date:   2024-03-12 12:00:00 -500
 categories: [Blog]
-tags: [data science, machine learning, model, GNB]
+tags: [data science, machine learning, models, GNB]
 ---
 
 <!-- Linking MathJax (put this in the header or somewhere at the beginning of your document) -->
@@ -33,13 +33,13 @@ Podemos tratar esse problema de classificação probabilisticamente, avaliando a
 <p>To display an inline equation, like \(E=mc^2\), you can write it directly into your paragraph.</p>
 
 <!-- Block Equation Example -->
-<p>For a block equation, use:
 ```
+<p>For a block equation, use:
 \[
 x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}
 \]
-```
 </p>
+```
 
 ```
 $P(y_k|X) = P(y_k|X_1, X_2,...,X_m)$

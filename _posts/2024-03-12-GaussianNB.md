@@ -2,7 +2,7 @@
 title:  "Tudo o que você precisa saber sobre o algoritmo Naive Bayes"
 date:   2024-03-12 12:00:00 -500
 categories: [Blog]
-tags: [data science, machine learning, models, GNB]
+tags: [data science, machine learning, modelos, GNB]
 ---
 
 <!-- Linking MathJax (put this in the header or somewhere at the beginning of your document) -->
@@ -126,7 +126,7 @@ Como já comentamos, essa probabilidade condicional (probabilidade a posteriori)
 <p>
 Sendo assim, a classe predita pelo modelo será dada por:
 \[
-\widehat{y} = \arg\max_{y_k, k \in 1,2,...,K} P(y_k|X) = \arg\max_{y_k} P(y_k)\prod_{i=1}^{m}P(x_i|y_k)
+\widehat{y} = \arg\max_{y_k} P(y_k|X) = \arg\max_{y_k} P(y_k)\prod_{i=1}^{m}P(x_i|y_k), k \in 1,2,..,K
 \]
 
 Em muitas ocasiões, principalmente quando temos uma grande quantidade de dados, é conveniente expressarmos as probabilidades da equação anterior na forma de logaritmo.

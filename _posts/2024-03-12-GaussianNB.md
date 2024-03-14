@@ -69,6 +69,11 @@ P(y_k|X) = \frac{P(x_1, x_2,...,x_m|y_k)P(y_k)}{P(x_1, x_2,...,x_m)}
 Nesse caso, a probabilidade de interesse, \(𝑃(𝑦_k|𝑋)\), é chamada probabilidade a Posteriori, e \(𝑃(𝑦_k)\) probabilidade a Priori. Já \(𝑃(X|𝑦_k)\) é a probabilidade de ocorrência dos dados de \(𝑋\), se a classe \(𝑦_k\) for verdadeira. Este termo é, por vezes, chamado Verossimilhança (Likelihood). E, por fim, \(𝑃(X)\) é a probabilidade dos dados de \(X\), independentemente da classe em questão, também chamado de Evidência.
 </p>
 
+<p>
+Em termos gerais, \(𝑃(𝑦_k)\) pode ser calculada via a frequência relativa de cada classe, no próprio conjunto de dados. No entanto, o cálculo da probabilidade conjunta \(P(x_1, x_2,...,x_m|y_k)\) não é trivial, pois todas as variáveis possuem interdependência e, portanto, precisamos estimar as distribuições de todas as combinações possíveis. Isso requer uma quantidade de dados muito grande o que, por sua vez, aumenta o esforço computacional necessário para se efetuar o cálculo do teorema de Bayes diretamente.
+</p>
+
+### Simplificação do Teorema de Bayes
 
 O GNB baseia-se no Teorema de Bayes para prever a classe de uma observação. Assume-se que os valores dos atributos seguem uma distribuição gaussiana. A probabilidade de uma característica, dado que pertence a uma classe específica, é modelada pela distribuição Gaussiana:
 

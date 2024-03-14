@@ -119,6 +119,17 @@ Pronto, com isso nós temos nosso classificador probabilístico Bayesiano hiper 
 
 ### Máxima Probabilidade a Posteriori
 
+<p>
+Como já comentamos, essa probabilidade condicional (probabilidade a posteriori) é realizada para todas as \(K\) classes do nosso conjunto de dados e a classe com maior probabilidade é então selecionada. Tecnicamente, esse procedimento é chamado de máxima probabilidade a posteriori, ou MAP, na sigla em inglês.
+</p>
+
+<p>
+Sendo assim, a classe predita pelo modelo será dada por:
+\[
+y_{^} = P(y_k|X) = P(y_k)\prod_{i=1}^{m}P(x_i|y_k)
+\]
+
+</p>
 
 O GNB baseia-se no Teorema de Bayes para prever a classe de uma observação. Assume-se que os valores dos atributos seguem uma distribuição gaussiana. A probabilidade de uma característica, dado que pertence a uma classe específica, é modelada pela distribuição Gaussiana:
 

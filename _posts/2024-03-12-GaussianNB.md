@@ -151,14 +151,14 @@ Então, em resumo, tudo o que precisamos calcular para treinar o modelo são as 
 ## Tipos de algoritmos NB
 
 <p>
-Para aplicar o algoritmo NB em problemas reais, precisamos estimar uma distribuição de probabilidades para os recursos de \(X\). Essa estimativa pode ser guiada pelo tipo de dado que compõe o recurso. Se as variável são categóricas binárias, usa-se uma distribuição binomial para representa-las. Caso haja multiclasses, usa-se uma distribuição multinomial. E, por fim, se estivermos lidando com dados contínuos, usa-se uma distribuição Gaussiana.
+Para aplicar o algoritmo NB em problemas reais, precisamos estimar uma distribuição de probabilidades para os recursos de \(X\). Essa estimativa pode ser guiada pelo tipo de dado que compõe o recurso. Se as variável são categóricas binárias, usa-se uma distribuição de bernoulli para representa-las. Caso haja multiclasses, usa-se uma distribuição multinomial. E, por fim, se estivermos lidando com dados contínuos, usa-se uma distribuição Gaussiana.
 </p>
 <p>
 E disto surgem os três tipos de classificadores Naive Bayes:
 <ul>
-    <li>Naive Bayes Binominal (NBB).</li>
-    <li>Naive Bayes multinomial (NBM).</li>
-    <li>Naive Bayes Gaussiano (NBG).</li>
+    <li>Bernoulli naive Bayes (BNB).</li>
+    <li>Multinomial naive Bayes (MNB).</li>
+    <li>Gaussian naive Bayes (GNB).</li>
 </ul>
 
 </p>

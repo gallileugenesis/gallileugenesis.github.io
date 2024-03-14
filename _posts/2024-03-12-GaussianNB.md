@@ -37,6 +37,8 @@ Matematicamente, isso pode ser escrito da seguinte forma:
 \[
 P(y_k|X) = P(y_k|x_1, x_2,...,x_m)
 \]
+
+Lemos "A probabilidade de ocorrência da classe \(𝑦_k\), dado o conjunto de dados \(𝑋\)".
 </p>
 
 <p> 

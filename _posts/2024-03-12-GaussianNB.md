@@ -79,8 +79,9 @@ Em termos gerais, \(𝑃(𝑦_k)\) pode ser calculada via a frequência relativa
 
 <p>
 Bem, como já deu pra notar, a vida é séria e a guerra é dura. Precisamos simplificar as coisas para tornar esse cálculo viável.
-Uma simplificação extrema é simplesmente considerar que todos os componentes de 𝑋 são independentes. Por exemplo, podemos supor que o clima em um certo dia nada tem a ver com a temperatura ou a umidade relativa do ar.
-Nesse momento você salta da sua confortável cadeira e branda revoltado "mas considerar a independência total entre todas as variáveis de 𝑋 é uma suposição bastante forte, tola pra ser mais preciso!". Sim, de fato é verdade, essa consideração é bastante ingênua, já que na prática não se pode esperar algo tão perfeito assim, principalmente em problemas complexos; e é justamente dai que vem o nome do método. No entanto, é surpreendente como o danado funciona bem quando a problemas reais.
+Uma simplificação extrema é simplesmente considerar que todos os componentes de \(𝑋\) são independentes. Por exemplo, podemos supor que o clima em um certo dia nada tem a ver com a temperatura ou a umidade relativa do ar.
+
+Nesse momento você salta da sua confortável cadeira e branda revoltado "mas considerar a independência total entre todas as variáveis de \(𝑋\) é uma suposição bastante forte, tola pra ser mais preciso!". Sim, de fato é verdade, essa consideração é bastante ingênua, já que na prática não se pode esperar algo tão perfeito assim, principalmente em problemas complexos; e é justamente dai que vem o nome do método. No entanto, é surpreendente como o danado funciona bem quando a problemas reais.
 </p>
 
 O GNB baseia-se no Teorema de Bayes para prever a classe de uma observação. Assume-se que os valores dos atributos seguem uma distribuição gaussiana. A probabilidade de uma característica, dado que pertence a uma classe específica, é modelada pela distribuição Gaussiana:

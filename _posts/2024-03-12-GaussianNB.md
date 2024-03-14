@@ -9,7 +9,7 @@ tags: [data science, machine learning, models, GNB]
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2024-03-12-GaussianNB/header_image.png?raw=true)
+![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2024-03-12-GaussianNB/header_image.jpeg?raw=true)
 
 ## Introdução
 
@@ -34,6 +34,14 @@ Podemos tratar esse problema de classificação probabilisticamente, avaliando a
 \[
 P(y_k|X) = P(y_k|x_1, x_2,...,x_m)
 \]
+</p>
+
+<p> 
+Tudo o que temos que fazer é calcular essa probabilidade para todas as classes em \(y\), e a classe com maior probabilidade é escolhida. 
+
+So easy, ? Bem...não tão depressa.
+
+A primeira pergunta a ser feita é: como calcular essas probabilidades? Como obter o resultado da Equação 1 para todas as classes em \(y\)? É aqui que entra o reverendo Bayes e seu teorema quase divino.
 </p>
 
 O GNB baseia-se no Teorema de Bayes para prever a classe de uma observação. Assume-se que os valores dos atributos seguem uma distribuição gaussiana. A probabilidade de uma característica, dado que pertence a uma classe específica, é modelada pela distribuição Gaussiana:

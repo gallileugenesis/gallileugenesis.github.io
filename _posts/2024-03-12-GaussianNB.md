@@ -39,11 +39,20 @@ P(y_k|X) = P(y_k|x_1, x_2,...,x_m)
 <p> 
 Tudo o que temos que fazer é calcular essa probabilidade para todas as classes em \(y\), e a classe com maior probabilidade é escolhida. 
 </p>
+
 <p> 
 So easy, né? Bem...não tão depressa.
 </p>
+
 <p> 
 A primeira pergunta a ser feita é: como calcular essas probabilidades? Como obter o resultado da Equação 1 para todas as classes em \(y\)? É aqui que entra o reverendo Bayes e seu teorema quase divino.
+</p>
+
+<p> 
+Aplicando o teorema de Bayes à Equação acima, obtemos:
+\[
+P(y_k|X) = \frac{P(X|y_k)}{P(X)}
+\]
 </p>
 
 O GNB baseia-se no Teorema de Bayes para prever a classe de uma observação. Assume-se que os valores dos atributos seguem uma distribuição gaussiana. A probabilidade de uma característica, dado que pertence a uma classe específica, é modelada pela distribuição Gaussiana:

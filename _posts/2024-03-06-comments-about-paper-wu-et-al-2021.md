@@ -28,4 +28,14 @@ Posteriormente, os resumos gerados pelo modelo são avaliados por humanos e, a p
 
 Os autores reconhecem que com essa estrutura, alguns resumos intermediários podem não ser bem sucedidos por não ter um contexto adequado. Para lidar com esse problema, foi proposto concatenar resumos anteriores e coloca-los em contexto na mesma profundidade.  
 
+Os modelos foram construídos de tal forma a serem capazes de resumir de forma abstrata, traçando arcos narrativos e temas maiores, e não somente listar séries de eventos. 
+
+A principal métrica de avaliação dos modelos foram as notas atribuídas por julgadores humanos sobre a qualidade geral do resumo em uma [escala Likert](https://www.scribbr.com/methodology/likert-scale/#:~:text=A%20Likert%20scale%20is%20a,five%20or%20seven%20answer%20statements.) de 1 a 7. Além disso, houve uma avalição mais abstrata, onde os julgadores avaliaram a precisão do resumo, a cobertura do texto fonte, a coerência e a quantidade de abstração.
+
+Os resumos intermediários foram definidos para conter uma taxa de compactação do texto de entrada em um fator de 5 a 10x, com limites superiores de comprimento de 128 a 384 tokens. A avaliação humana foi condicionada a quantidade de palavras dos resumos, para se evitar a preferência por resumos mais longos. 
+
+Foram avaliados dois tamanhos de modelo 175B e 6B, ou seja, modelos com 175 bilhões 6 bilhões de parâmetros, respectivamente. Para cada tamanho de modelo, foram testados dois tipos de treinamento: clonagem comportamental (*behavioral cloning* (BC)) e aprendizagem por reforço (*reinforcement learning* (RL)). Além disso, foram testadas temperaturas T=0,0, 0,3 e 0,6. 
+
+Um fato interessante é que a concordância entre os julgamentos humanos quanto à qualidade relativa dos resumos escritos por modelos foi de quase 80%.
+
 Os resultados mostraram que o modelo resultante gera resumos sensatos de livros inteiros, igualando até mesmo a qualidade de resumos escritos por humanos em alguns casos (∼ 5% dos livros).

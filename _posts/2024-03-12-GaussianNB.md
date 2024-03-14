@@ -135,6 +135,11 @@ Em muitas ocasiões, principalmente quando temos uma grande quantidade de dados,
 \widehat{y} = \arg\max_{y_k} [ln(P(y_k)\prod_{i=1}^{m}P(x_i|y_k))]
 \]
 
+Como o logaritmo do produto é igual à soma dos logaritmos, ficamos com:
+
+\[
+\widehat{y} = \arg\max_{y_k} [ln P(y_k) + \prod_{i=1}^{m}lnP(x_i|y_k)]
+\]
 </p>
 
 

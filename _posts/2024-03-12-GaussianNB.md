@@ -25,17 +25,11 @@ A ideia básica de um algorítimo de classificação é que ele consiga, com bas
 
 Podemos tratar esse problema de classificação probabilisticamente, avaliando a probabilidade condicional da ocorrência de uma classe ***𝑦k***, dado o conjunto de dados ***𝑋***. Matematicamente, isso pode ser escrito da seguinte forma:
 
-Equation \@ref(eq:ncrep)
+\[
+y = \frac { \sum _ { i } w _ { i } y _ { i } } { \sum _ { i } w _ { i } } , i = 1,2 \ldots k
+\]
 
-\begin{equation}
-    \theta^{*}|L^{*}, \delta^{2},Y,\sigma^{2}_{u} \sim N\left(B^{-1}W'L^{*},\delta^{2}B^{-1} \right)
-    (\#eq:ncrep)
-\end{equation}
-
-$$
-x = \frac { - b \pm \sqrt { b ^ { 2 } - 4 a c } } { 2 a }
-$$
-
+$$\sum_{i=1}^n X_i$$
 
 ```
 $P(y_k|X) = P(y_k|X_1, X_2,...,X_m)$

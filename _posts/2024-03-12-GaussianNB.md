@@ -148,7 +148,7 @@ Reparem que trocamos o produto de probabilidades por somas de probabilidades, o 
 Então, em resumo, tudo o que precisamos calcular para treinar o modelo são as probabilidade envolvidas na equação acima. Não há coeficientes que precisem ser ajustados via alguma algoritmo de otimização, como é comum em outros algoritmos de Machine Learning. Consequência? Temos um algoritmo de aprendizagem rápida e fácil implementação.
 </p>
 
-
+## Gaussia Naive Bayes
 O GNB baseia-se no Teorema de Bayes para prever a classe de uma observação. Assume-se que os valores dos atributos seguem uma distribuição gaussiana. A probabilidade de uma característica, dado que pertence a uma classe específica, é modelada pela distribuição Gaussiana:
 
 \[
@@ -157,9 +157,6 @@ P(x_i|y) = (1 / sqrt(2 * pi * sigma_y^2)) * exp(-((x_i - mu_y)^2 / (2 * sigma_y^
 
 Aqui, `mu_y` é a média dos valores de um atributo para a classe `y`, e `sigma_y^2` é a variância.
 
-## Implementação e Comparação Prática
-
-Implementamos o GNB 'from scratch' e comparamos seu desempenho com a versão do scikit-learn usando o dataset Iris. Ambas as implementações alcançaram uma acurácia de 100% na classificação do conjunto de teste, destacando a eficácia do GNB mesmo em sua forma mais simples.
 
 ## Vantagens do GNB
 
@@ -172,4 +169,3 @@ Implementamos o GNB 'from scratch' e comparamos seu desempenho com a versão do 
 - **Suposição de independência entre os atributos**
 - **Sensibilidade a dados não representativos**
 
-O GNB se destaca pela sua capacidade de fornecer resultados rápidos e precisos, mesmo com suas suposições simplificadoras. Sua aplicação vai desde a classificação de textos até o reconhecimento de padrões em dados biológicos, provando ser uma ferramenta valiosa no arsenal de qualquer cientista de dados.

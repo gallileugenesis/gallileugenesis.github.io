@@ -38,13 +38,9 @@ Podemos tratar esse problema de classificação probabilisticamente, avaliando a
 <p>For a block equation, use:
 \[
 
-x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}
+P(y_k|X) = P(y_k|X_1, X_2,...,X_m)
 
 \]
-</p>
-
-<p>
-$P(y_k|X) = P(y_k|X_1, X_2,...,X_m)$
 </p>
 
 O GNB baseia-se no Teorema de Bayes para prever a classe de uma observação. Assume-se que os valores dos atributos seguem uma distribuição gaussiana. A probabilidade de uma característica, dado que pertence a uma classe específica, é modelada pela distribuição Gaussiana:

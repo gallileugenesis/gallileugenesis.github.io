@@ -174,7 +174,7 @@ Outro ponto importante é que, apesar de serem as distribuições mais comumente
 Como discutido anteriormente, a depender da natureza dos recursos de \(X\), pode-se assumir que estes sigam determinada distribuição de probabilidade. Quando se trata de dados contínuos, na maioria das vezes, assume-se que estes seguem uma distribuição de probabilidade Gaussiana. Nesse caso, as probabilidades da  Verossimilhança (Likelihood) pode ser obtida pela equação abaixo:
 
 \[
-P(x_i|y_k) = \dfrac{1}{\sqrt(2 \pi \sigma_k^2)} e^{-(\dfrac{(x_i - \mu_k)^2}{2 \sigma_k^2})}
+P(x_i|y_k) = \dfrac{1}{\sqrt(2 \pi \sigma_k^2)} e^{-\dfrac{(x_i - \mu_k)^2}{2 \sigma_k^2}}
 \]
 
 Aqui, \(\mu_k\) é a média dos valores de um atributo para a classe \(y_k\), e \(\sigma_k^2\) é a variância.

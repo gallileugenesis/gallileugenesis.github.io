@@ -25,6 +25,8 @@ A ideia básica de um algorítimo de classificação é que ele consiga, com bas
 
 Podemos tratar esse problema de classificação probabilisticamente, avaliando a probabilidade condicional da ocorrência de uma classe ***𝑦k***, dado o conjunto de dados ***𝑋***. Matematicamente, isso pode ser escrito da seguinte forma:
 
+My first inline equation: $x = \frac{-b \pm \sqrt{b^{2} - 4ac}}{2a}$.
+
 ```
 $P(y_k|X) = P(y_k|X_1, X_2,...,X_m)$
 ```

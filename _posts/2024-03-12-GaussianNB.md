@@ -48,7 +48,7 @@ So easy, né? Bem...não tão depressa.
 </p>
 
 <p> 
-A primeira pergunta a ser feita é: como calcular essas probabilidades? Como obter o resultado da Equação 1 para todas as classes em \(y\)? É aqui que entra o reverendo Bayes e seu teorema quase divino.
+A primeira pergunta a ser feita é: como calcular essas probabilidades? Como obter o resultado dessa equação para todas as classes em \(y\)? É aqui que entra o reverendo Bayes e seu teorema quase divino.
 </p>
 
 <p> 

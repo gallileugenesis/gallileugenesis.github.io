@@ -25,17 +25,6 @@ A ideia básica de um algorítimo de classificação é que ele consiga, com bas
 
 Podemos tratar esse problema de classificação probabilisticamente, avaliando a probabilidade condicional da ocorrência de uma classe ***𝑦k***, dado o conjunto de dados ***𝑋***. Matematicamente, isso pode ser escrito da seguinte forma:
 
-$\sqrt{3x-1}+(1+x)^2$
-
-**The Cauchy-Schwarz Inequality**
-$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
-
-**The Cauchy-Schwarz Inequality**
-
-```math
-\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
-```
-
 
 ```
 $P(y_k|X) = P(y_k|X_1, X_2,...,X_m)$

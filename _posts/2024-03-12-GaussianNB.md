@@ -177,7 +177,9 @@ Como discutido anteriormente, a depender da natureza dos recursos de \(X\), pode
 P(x_i|y_k) = \dfrac{1}{\sqrt(2 \pi \sigma_k^2)} e^{-\dfrac{(x_i - \mu_k)^2}{2 \sigma_k^2}}
 \]
 
-Aqui, \(\mu_k\) é a média dos valores de um atributo para a classe \(y_k\), e \(\sigma_k^2\) é a variância.
+E, desse modo, os únicos parâmetros que precisamos estimar, a partir dos dados de treinamento, são a média \(\mu_k\) e o desvio padrão (\sigma_k^2\) de cada classe \(y_k\).
+
+Simples, né?
 </p>
 
 ### Vantagens do GNB

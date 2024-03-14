@@ -40,6 +40,8 @@ P(y_k|X) = P(y_k|x_1, x_2,...,x_m)
 
 $$x_{1,2} = \frac{-b \pm \sqrt{b^2-4ac}}{2b}.$$
 
+<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+
 O GNB baseia-se no Teorema de Bayes para prever a classe de uma observação. Assume-se que os valores dos atributos seguem uma distribuição gaussiana. A probabilidade de uma característica, dado que pertence a uma classe específica, é modelada pela distribuição Gaussiana:
 
 ```

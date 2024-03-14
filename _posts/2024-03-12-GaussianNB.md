@@ -38,9 +38,11 @@ P(y_k|X) = P(y_k|x_1, x_2,...,x_m)
 
 <p> 
 Tudo o que temos que fazer é calcular essa probabilidade para todas as classes em \(y\), e a classe com maior probabilidade é escolhida. 
-
-So easy, ? Bem...não tão depressa.
-
+</p>
+<p> 
+So easy, né? Bem...não tão depressa.
+</p>
+<p> 
 A primeira pergunta a ser feita é: como calcular essas probabilidades? Como obter o resultado da Equação 1 para todas as classes em \(y\)? É aqui que entra o reverendo Bayes e seu teorema quase divino.
 </p>
 

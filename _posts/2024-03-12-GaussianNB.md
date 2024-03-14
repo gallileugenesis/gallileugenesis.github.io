@@ -186,12 +186,15 @@ Simples, né?
 
 ### Vantagens do GNB
 
-- **Eficiente com grandes dimensões de dados**
-- **Boa performance com um pequeno conjunto de dados**
-- **Trata bem dados contínuos**
+<ul>
+    <li>Eficiente com grandes dimensões de dados.</li>
+    <li>Boa performance com um pequeno conjunto de dados.</li>
+    <li>Trata bem dados contínuos.</li>
+</ul>
 
 ### Desvantagens do GNB
 
-- **Suposição de independência entre os atributos**
-- **Sensibilidade a dados não representativos**
-
+<ul>
+    <li>Suposição de independência entre os atributos.</li>
+    <li>Sensibilidade a dados não representativos.</li>
+</ul>

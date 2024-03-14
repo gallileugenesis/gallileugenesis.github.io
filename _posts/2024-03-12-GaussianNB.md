@@ -1,13 +1,13 @@
 ---
-title:  "Gaussiano Naive Bayes (GNB)"
+title:  "Gaussiano Naive Bayes"
 date:   2024-03-12 12:00:00 -500
 categories: [Blog]
-tags: [data science, machine learning, GNB]
+tags: [data science, machine learning, model, GNB]
 ---
 
-![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2024-03-06-comments-about-paper-wu-et-al-2021/header_image.png?raw=true)
+![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2024-03-12-GaussianNB/header_image.png?raw=true)
 
-# Introdução
+## Introdução
 
 Em Machine Learning, um problema de classificação consiste em prever alguma classe ou rótulo, com base em um conjunto de dados.
 
@@ -23,9 +23,11 @@ Este artigo explora em detalhes o funcionamento do GNB, sua fundamentação mate
 
 A ideia básica de um algorítimo de classificação é que ele consiga, com base em conjunto de dados de treinamento ***(𝑋,y)*** usado para ajustar o modelo, aprender e atribuir corretamente uma classe para novos valores de entrada (valores inda não observados pelo modelo). Em outras palavras, um algoritmo de classificação cria uma função matemática ***(𝑦=𝑓(𝑥))*** que, ajustada pelos dados de treinamento, mapeia um certo conjunto de dados ***X*** (dados de entrada) para um outro conjunto de dados ***y*** (classes).
 
-Podemos tratar esse problema de classificação probabilisticamente, avaliando a probabilidade condicional da ocorrência de uma classe ***$𝑦_k$***, dado o conjunto de dados ***𝑋***. Matematicamente, isso pode ser escrito da seguinte forma:
+Podemos tratar esse problema de classificação probabilisticamente, avaliando a probabilidade condicional da ocorrência de uma classe ***𝑦k***, dado o conjunto de dados ***𝑋***. Matematicamente, isso pode ser escrito da seguinte forma:
 
-EQUAÇÂO
+```
+$P(x_i|y) = (1 / sqrt(2 * pi * sigma_y^2)) * exp(-((x_i - mu_y)^2 / (2 * sigma_y^2)))$
+```
 
 
 O GNB baseia-se no Teorema de Bayes para prever a classe de uma observação. Assume-se que os valores dos atributos seguem uma distribuição gaussiana. A probabilidade de uma característica, dado que pertence a uma classe específica, é modelada pela distribuição Gaussiana:

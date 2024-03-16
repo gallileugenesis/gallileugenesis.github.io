@@ -3,6 +3,8 @@ title:  "Comentários sobre o artigo: Wu et al. 2021 - Recursively Summarizing B
 date:   2024-03-06 12:00:00 -500
 categories: [Blog]
 tags: [data science, machine learning, research, paper, NLP, LLM]
+layout: post
+comments: true
 ---
 
 ![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2024-03-06-comments-about-paper-wu-et-al-2021/header_image.png?raw=true)

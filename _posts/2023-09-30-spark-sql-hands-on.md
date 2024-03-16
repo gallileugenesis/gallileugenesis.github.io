@@ -3,6 +3,8 @@ title:  "Spark SQL na prática"
 date:   2023-09-30 12:00:00 -500
 categories: [Blog]
 tags: [machine learning, spark, sql, data science]
+layout: post
+comments: true
 ---
 
 

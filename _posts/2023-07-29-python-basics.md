@@ -3,6 +3,8 @@ title:  "Curso básico de python"
 date:   2023-07-29 12:00:00 -500
 categories: [Blog, Notebooks]
 tags: [python, programação, curso]
+layout: post
+comments: true
 ---
 
 

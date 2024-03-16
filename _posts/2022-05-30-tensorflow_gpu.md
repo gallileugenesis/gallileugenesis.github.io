@@ -3,6 +3,8 @@ title: "Como instalar e configurar o Tensorflow/Keras com suporte para CPU e GPU
 date: 2022-05-24 12:00:00 -500
 categories: [Blog]
 tags: [tensorflow, cpu, gpu, deep learning, ciência de dados, machine learning]
+layout: post
+comments: true
 ---
 
 ## Introdução

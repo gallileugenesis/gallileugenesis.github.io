@@ -1,4 +1,6 @@
 ---
+layout: post
+comments: true
 title:  "Cadastro automático de processos no SAJ"
 date:   2023-08-16 12:00:00 -500
 categories: [Projetos]

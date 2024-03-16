@@ -3,6 +3,8 @@ title:  "Machine Learning Examples with Scikit-Learn"
 date:   2023-09-21 12:00:00 -500
 categories: [Blog]
 tags: [machine learning, Scikit-Learn, data science]
+layout: post
+comments: true
 ---
 
 

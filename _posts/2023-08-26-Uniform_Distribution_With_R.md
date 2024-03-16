@@ -3,6 +3,8 @@ title:  "Distribuição Uniforme com R"
 date:   2023-08-26 12:00:00 -500
 categories: [Blog]
 tags: [EDA, ciência de dados, análise de dados, distribuição de probabilidades, R]
+layout: post
+comments: true
 ---
 
 

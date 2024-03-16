@@ -3,6 +3,8 @@ title:  "Projeto de Sumarizador de Texto com GPT"
 date:   2023-12-15 12:00:00 -500
 categories: [Projetos]
 tags: [data science, machine learning, NLP, LLM]
+layout: post
+comments: true
 ---
 
 ![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2023-12-15-text-summarization-with-gpt/header_image.png?raw=true)

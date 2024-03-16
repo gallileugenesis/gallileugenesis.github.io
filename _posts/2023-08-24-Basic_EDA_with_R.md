@@ -1,4 +1,6 @@
 ---
+layout: post
+comments: true
 title:  "Análise exploratória de dados com R"
 date:   2023-08-24 12:00:00 -500
 categories: [Blog, Notebooks]

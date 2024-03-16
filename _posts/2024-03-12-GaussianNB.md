@@ -1,10 +1,10 @@
 ---
-layout: post
-comments: true
 title:  "Tudo o que você precisa saber sobre o algoritmo Naive Bayes"
 date:   2024-03-12 12:00:00 -500
 categories: [Blog]
 tags: [data science, machine learning, modelos, GNB]
+layout: post
+comments: true
 ---
 
 <!-- Linking MathJax (put this in the header or somewhere at the beginning of your document) -->

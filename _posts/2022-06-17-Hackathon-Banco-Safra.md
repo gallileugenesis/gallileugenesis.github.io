@@ -3,6 +3,8 @@ title: "Hackathon Banco Safra 2022"
 date: 2022-06-17 12:00:00 -500
 categories: [Projetos]
 tags: [hackathon, inovação, ciência de dados, openbanking]
+layout: post
+comments: true
 ---
 
 <div style="text-align:center;">

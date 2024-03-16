@@ -1,4 +1,6 @@
 ---
+layout: post
+comments: true
 title:  "Projeto JIGA - Usina Pernambucana de Inovação"
 date:   2023-08-17 12:00:00 -500
 categories: [Projetos]

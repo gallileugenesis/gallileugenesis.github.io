@@ -3,6 +3,8 @@ title:  "Como converter um arquivo PDF da web em texto"
 date:   2023-10-24 12:00:00 -500
 categories: [Blog]
 tags: [data science, extração de texto]
+layout: post
+comments: true
 ---
 
 ![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2023-10-24-PDF-to-text/cover-image.jpeg?raw=true)

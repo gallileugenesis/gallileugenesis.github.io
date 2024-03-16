@@ -873,3 +873,4 @@ print(f"Acurácia do modelo sklearn: {accuracy_sklearn:.2f}")
     Acurácia do nosso modelo from scratch: 0.98
     Acurácia do modelo sklearn: 0.98
     
+**Nota:** Todo o código está disponível no [Github](https://github.com/gallileugenesis/gaussian-naive-bayes)

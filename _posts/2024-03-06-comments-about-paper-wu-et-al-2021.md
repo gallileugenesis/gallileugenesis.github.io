@@ -41,3 +41,7 @@ Um fato interessante é que a concordância entre os julgamentos humanos quanto 
 Os resultados mostram que os melhores modelos geraram resumos sensatos de livros inteiros, igualando até mesmo a qualidade de resumos escritos por humanos em alguns casos. Em aproximadamente 5% dos casos, os resumos do melhor modelo 175B receberam uma pontuação de 6 de 7, e mais de 15% receberam 5 de 7. No entanto, na média, os resumos dos modelos ainda são significativamente piores do que os resumos escritos por humanos.
 
 Um outro resultado interessante apresentado no trabalho foi de que as pontuações Likert para os resumos completos dos livros foram significativamente mais baixas do que as pontuações Likert de qualquer uma das tarefas individuais decompostas, ou seja, de resumos intermediários das frações do livro. Isso se deve ao fato de que os erros acumulados em cada profundidade são todos refletidos na pontuação completa do resumo do livro. 
+
+Além da avaliação por julgamento humano, os modelos foram avaliados no conjunto de dados [BookSum](https://paperswithcode.com/dataset/booksum), usando as métricas  [ROUGE](https://en.wikipedia.org/wiki/ROUGE_(metric) e [BERTScore](https://wiki.math.uwaterloo.ca/statwiki/index.php?title=BERTScore:_Evaluating_Text_Generation_with_BERT).
+
+Nessa avaliação os modelos testados superaram praticamente todas as linhas de base na métrica ROUGE em 3-4 pontos. Com relação à metrica BERTScore, o resultado foi ainda melhor, com os modelos superando significativamente todas as linhas de base. 

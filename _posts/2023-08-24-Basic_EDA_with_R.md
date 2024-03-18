@@ -4,7 +4,7 @@ comments: true
 title:  "Análise exploratória de dados com R"
 date:   2023-08-24 12:00:00 -500
 categories: [Blog, Notebooks]
-tags: [EDA, blog, ciência de dados, análise de dados, R]
+tags: [EDA, blog, data science, análise de dados, R]
 ---
 
 

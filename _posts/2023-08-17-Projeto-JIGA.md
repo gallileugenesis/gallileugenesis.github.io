@@ -4,7 +4,7 @@ comments: true
 title:  "Projeto JIGA - Usina Pernambucana de Inovação"
 date:   2023-08-17 12:00:00 -500
 categories: [Projetos]
-tags: [machine learning, projetos, ciência de dados, pesquisa]
+tags: [machine learning, projetos, data science, pesquisa]
 ---
 
 

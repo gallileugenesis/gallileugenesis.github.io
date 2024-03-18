@@ -2,7 +2,7 @@
 title:  "EDA - California Housing Dataset"
 date:   2023-08-27 12:00:00 -500
 categories: [Blog, Notebooks, Kaggle]
-tags: [EDA, competições kaggle, ciência de dados, análise de dados, python]
+tags: [EDA, competições kaggle, data science, análise de dados, python]
 layout: post
 comments: true
 ---

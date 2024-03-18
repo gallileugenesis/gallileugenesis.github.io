@@ -2,7 +2,7 @@
 title:  "Pipeline de classficação do Titanic com Spark"
 date:   2023-09-16 12:00:00 -500
 categories: [Blog, Notebooks, Kaggle]
-tags: [machine learning, classificação, spark, big data, ciência de dados, kaggle]
+tags: [machine learning, classificação, spark, big data, data science, kaggle]
 layout: post
 comments: true
 ---

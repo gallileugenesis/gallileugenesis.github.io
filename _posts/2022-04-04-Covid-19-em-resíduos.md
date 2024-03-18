@@ -2,7 +2,7 @@
 title:  "Covid-19 em resíduos: diagnóstico e medidas de proteção"
 date:   2022-04-07 12:00:00 -500
 categories: [Pesquisa]
-tags: [covid, análise de dados, ciência de dados, pesquisa]
+tags: [covid, análise de dados, data science, pesquisa]
 layout: post
 comments: true
 ---

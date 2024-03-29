@@ -38,3 +38,8 @@ Mas existem diferenças. As considerações que se faz nos LLMOps serão diferen
 - **Estratégias de avaliação:** É notoriamente difícil avaliar LLMs. Suas tarefas costumam ser muito gerais para testes discretos e, simplesmente, os modelos são muito poderosos para muitos dos *benchmarks* simples que costuma-se usar para modelos de ML tradicionais.
 - **Custos e latência:** Relacionado ao primeiro ponto sobre requisitos de dados, os LLMs são caros. Os custos de computação por si só podem ser exorbitantes, especialmente quando se deseja latência rápida. Este não é um problema fácil de resolver e requer muita estratégia em torno da infraestrutura.
 
+# Referências
+
+[Databricks - LLMOps](https://www.databricks.com/glossary/llmops)
+[Udacity - LLMOps: Building Real-World Applications With Large Language Models](https://learn.udacity.com/paid-courses/cd13455)
+[IBM - What are large language model operations (LLMOps)?](https://www.ibm.com/topics/llmops)

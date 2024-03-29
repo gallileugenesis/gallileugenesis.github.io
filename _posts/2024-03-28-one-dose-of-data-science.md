@@ -24,7 +24,7 @@ Existem seis etapas principais pelas quais um modelo de linguagem normalmente pa
 
 ## Ferramentas de LLMOps
 
-Para cada uma dessas etapas existem diversas ferramentas que fornecem funcionalidades diferentes que permitem trabalhar com grandes modelos de linguagem de uma maneira muito mais fluida e flexivel. Essas ferramentas vão desde os grandes fornecedores de modelos de linguagem, como OpenAI e Anthropic,  ferramentas de gerenciamento de experimentos e modelos como o Comet e Mlflow, frameworks, como Hugging Face, Langchain, Griptape e muitos outros, e, por fim, serviços de “infraestrutura, como Databricks, Azure e Snowflake, dentre outros.
+Para cada uma dessas etapas existem diversas ferramentas que fornecem funcionalidades diferentes que permitem trabalhar com grandes modelos de linguagem de uma maneira muito mais fluida e flexivel. Essas ferramentas vão desde os grandes fornecedores de modelos de linguagem, como OpenAI e Anthropic,  ferramentas de gerenciamento de experimentos e modelos, como o Comet e Mlflow, frameworks, como Hugging Face, Langchain, Griptape e muitos outros, e, por fim, serviços de infraestrutura, como Databricks, Azure e Snowflake, dentre outros.
 
 ![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2024-03-28-one-dose-of-data-science/LLMOps_tools.jpeg?raw=true)
 
@@ -40,7 +40,7 @@ Mas existem diferenças. As considerações que se faz nos LLMOps serão diferen
 - **Estratégias de avaliação:** É notoriamente difícil avaliar LLMs. Suas tarefas costumam ser muito gerais para testes discretos e, simplesmente, os modelos são muito poderosos para muitos dos *benchmarks* simples que costuma-se usar para modelos de ML tradicionais.
 - **Custos e latência:** Relacionado ao primeiro ponto sobre requisitos de dados, os LLMs são caros. Os custos de computação por si só podem ser exorbitantes, especialmente quando se deseja latência rápida. Este não é um problema fácil de resolver e requer muita estratégia em torno da infraestrutura.
 
-# Referências
+## Referências
 
 - [Databricks - LLMOps](https://www.databricks.com/glossary/llmops)
 - [Udacity - LLMOps: Building Real-World Applications With Large Language Models](https://learn.udacity.com/paid-courses/cd13455)

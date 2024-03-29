@@ -11,7 +11,7 @@ comments: true
 
 LLMOps (*Large Language Model Ops*) se refere ao conjunto de práticas, ferramentas e metodologias usadas para gerenciar, implantar, monitorar e escalar grandes modelos de linguagem - LLMs (*Large Language Models*).  
 
-![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2024-03-28-one-dose-of-data-science/LLMOps_lifecycle.jpeg?raw=true)
+![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2024-03-28-one-dose-of-data-science/LLMOps_lifecycle.png?raw=true)
 
 Existem seis etapas principais pelas quais um modelo de linguagem normalmente passa:
 

@@ -41,7 +41,7 @@ Você deve garantir que o TensorFlow tenha a versão do Python compatível. A me
 
 O comando a seguir cria um ambiente chamado "tensorflow" para a versão Python 3.9. Você pode nomeá-lo como quiser. 
 
-> conda create --name tensorflow python=3.9
+> conda create --n tensorflow python=3.9
 
 Para entrar neste ambiente, você deve usar o seguinte comando:
 

@@ -9,8 +9,6 @@ comments: true
 
 ![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2024-04-20-basic-of-prompt-engineering/image.png?raw=true)
 
-**Nota:** Todo o código está disponível no [Github](https://github.com/gallileugenesis/prompt-engineering/blob/main/basic-of-prompt-engineering.ipynb)
-
 Quando se está construindo soluções baseadas em LLMs (*Large Language Models*), uma das principais etapas é a engenharia de *prompt* (*prompt engineering*), que consiste na criação cuidadosa de instruções ou de perguntas (*prompts*) para os grandes modelos de linguagem, como GPT (*Generative Pretrained Transformer*) da OpenAI ou Gemini, do Google. O principal objetivo da engenharia de *prompt* é maximizar a eficácia e a precisão dos modelos ao executar suas tarefas, seja responder perguntas ou gerar conteúdo, por exemplo. Esta é uma das formas mais eficazes de melhorar a qualidade dos resultados dos LLMs e é particularmente relevante em modelos que dependem de interações baseadas em texto para entender e executar solicitações dos usuários.
 
 Mas, a engenharia de *prompt* não se resume a busca por melhorar a qualidade das respostas dos modelos. Ela pode ser usada para controlar adequadamente suas saídas, seja quanto ao seu formato/padrão, ou com relação às políticas e regras da organização, reduzir o custo/latência das respostas, etc.
@@ -308,3 +306,6 @@ print(response)
     
     Os buracos negros são objetos extremamente fascinantes e desempenham um papel fundamental na astrofísica e na compreensão do universo. Suas propriedades únicas desafiam nossa compreensão da física e da natureza do espaço-tempo.
     
+**Nota:** Todo o código está disponível no [Github](https://github.com/gallileugenesis/prompt-engineering/blob/main/basic-of-prompt-engineering.ipynb)
+
+Caso tenha interesse, você pode me encontrar no [GitHub](https://github.com/gallileugenesis) e [LinkedIn](https://www.linkedin.com/in/gallileugenesis/).

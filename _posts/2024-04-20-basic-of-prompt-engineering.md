@@ -57,7 +57,7 @@ def get_completion(messages, model="gpt-3.5-turbo", temperature=0, max_tokens=30
     return response.choices[0].message.content
 ```
 
-### 1 - Seja específico e claro
+## 1 - Seja específico e claro
 Escreva instruções tão claras e específicas quanto possível para obter os comportamentos desejados do LLM:
 
 
@@ -157,7 +157,7 @@ print(response)
     Com base em seus gostos por comida italiana, eu recomendaria o prato Pasta Carbonara do nosso menu. É um prato clássico e delicioso que combina massa, ovos, queijo parmesão, pancetta e pimenta preta. Tenho certeza de que você vai adorar!
     
 
-### 2 - Adicionar delimitadores
+## 2 - Adicionar delimitadores
 Adicionar delimitadores ajuda a estruturar melhor as instruções e os componentes gerais do *prompt*. Isso é benéfico para obter respostas mais confiáveis.
 
 
@@ -194,7 +194,7 @@ strings2.append("4")
 
 
 
-### 3 - Especifique o formato de saída
+## 3 - Especifique o formato de saída
 Se o formato das respostas for importante, isso deverá ser explicitamente declarado no *prompt* para obter os resultados desejados. No exemplo a seguir, gostaríamos de exportar os resultados como um objeto JSON.
 
 
@@ -233,7 +233,7 @@ print(get_completion(message))
     }
     
 
-### 4 – Pense passo a passo
+## 4 – Pense passo a passo
 Para obter raciocínio em LLMs, você pode fazer com que o modelo pense passo a passo. Solicitar ao modelo dessa forma permite que ele forneça as etapas detalhadas antes de fornecer uma resposta final que resolva o problema.
 
 
@@ -268,7 +268,7 @@ print(response)
     Portanto, a soma dos números ímpares neste grupo é um número ímpar.
     
 
-### 5 - Interpretação de papéis
+## 5 - Interpretação de papéis
 O exemplo abaixo mostra como aplicar a interpretação de papéis. Nesse caso, o modelo foi induzido a assumir o papel de um assistente de pesquisa, com o objetivo de responder às questões científicas dos usuários. Você pode também combinar diferentes mensagens para imitar ou iniciar o comportamento que deseja ou espera do modelo.
 
 

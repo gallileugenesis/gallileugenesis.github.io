@@ -2,7 +2,7 @@
 title:  "Noções básicas de engenharia de prompt"
 date:   2024-04-20 12:00:00 -500
 categories: [Blog]
-tags: [data science, machine learning, prompt engineering, LLM]
+tags: [data science, machine learning, prompt engineering, GenAI, NPL, LLM]
 layout: post
 comments: true
 ---

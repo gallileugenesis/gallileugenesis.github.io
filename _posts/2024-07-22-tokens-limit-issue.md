@@ -62,7 +62,7 @@ As define in [Mistral documentation](https://docs.mistral.ai/guides/tokenization
 
 4. **Decoding:** Finally, in the decoding step, the output tokens are converted back into human-readable text by mapping the tokens to their corresponding words using the tokenizer’s vocabulary.
  
-## How to Solve LLM Token Limits?
+## How to solve LLM token limits?
 
 ### Handle the maximum number of tokens (max_tokens) parameter:
 
@@ -94,17 +94,17 @@ Instead of creating a unic and big prompt to handle all tasks at once, create se
 
 This is a efficient alternative to handle  of the tokens limit, but the processing time mybe a limiter. 
 
-### Use a Model With a Bigger Context Window:
+### Use a model with a bigger context window:
 One of the simplest solutions is to find a model with a larger context window. For example, use Mixtral 8x7B (context window of 32.000 tokens) instead Llama 2 13B (context window of 4.096 tokens). 
 
 But be careful, as models with a larger context window will not necessarily be the most suitable for your task.
 
-### Prompt Truncation:
+### Prompt truncation:
 The easiest way to bring the prompt within the token limit is to remove parts from the prompt’s start or end. It is a simple fix, but it comes at the cost of loss of information. The model will not process the truncated prompt and might miss the important context.
 
 Truncation can be done on a character or word level, depending on the requirement. 
 
-### Chunk Processing
+### Chunk processing
 An alternative approach to handling lengthy prompt bodies involves dividing the text into smaller segments, called chunks. Each chunks is processed separately by the LLM, generating independent outputs. These outputs are then merged to create a single, comprehensive result. However, this method can introduce errors because each chunks only represents a portion of the complete information, and combining the outputs may result in gaps.
 
 This approach is usually used in summarization tasks, but can also be applied in another's NLP task, as Q&A.
@@ -131,16 +131,11 @@ This approach is usually used in summarization tasks, but can also be applied in
 - Pros: Scales well, better for single-answer questions
 - Cons: Cannot combine information between documents ​
 
-### Retrieval Augmented Generation (RAG): 
+### Retrieval augmented generation (RAG): 
 
 RAG combines retrieval-based and generative models to enhance the quality and accuracy of text generation. The retrieval model is responsible for fetching relevant information from a large corpus of documents or a database. When given a query or a prompt, the retrieval model searches for and retrieves a set of documents or passages that are most relevant to the query.
 
 Depending of the application, RAG can removes the need for the vast majority of the context in the prompt, decreasing your amount of tokens of input. However, the final results depend greatly on the search relevancy. 
 
   
-
-https://github.com/lanchuhuong/Langchain-tutorials/blob/main/chains/DocumentChain%20Types.ipynb
-https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them
-https://www.youtube.com/watch?v=f9_BWhCI4Zo
-https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/fm-context-length.html?context=wx
-https://deepchecks.com/5-approaches-to-solve-llm-token-limits/
+ 

@@ -7,6 +7,8 @@ layout: post
 comments: true
 ---
 
+![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2024-07-22-tokens-limit-issue/header_image.png?raw=true)
+
 ## Introduction 
 
 Every large language model (LLM) has limits on how many tokens it can process for each request, due due to computational constraints, such as memory and processing data. This limit involves the sum of the input and output number of tokens, and it define the model’s context window. The size of the context window impacts the amount of information the model can process and respond to in tasks such as translation, question answering, or text generation.

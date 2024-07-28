@@ -9,6 +9,8 @@ comments: true
 
 ![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2024-07-22-tokens-limit-issue/header_image.png?raw=true)
 
+# How to deal with token limit issues in large language models (LLMs)
+
 ## Introduction 
 
 Every large language model (LLM) has limits on how many tokens it can process for each request, due due to computational constraints, such as memory and processing data. This limit involves the sum of the input and output number of tokens, and it define the model’s context window. The size of the context window impacts the amount of information the model can process and respond to in tasks such as translation, question answering, or text generation.
@@ -34,11 +36,25 @@ Before we proceed with the description of some methods to overcome the token lim
 
 In the context of natural language processing (NLP) and LLMs, tokens can be described as fragments of language. They are the basic units of text that a model processes to understand and generate text. We tend to imagine that each word represents a token. But for most models this is almost never true. A token can be as short as one character or as long as one word. But tokens can also include trailing spaces, numbers, special characters, punctuation marks, and even sub-words. 
 
-Examples:
+### Types of Tokenization
 
-- **Word-level tokenization:** "Hello, world!" -> ["Hello", ",", "world", "!"]
-- **Subword tokenization:** "unhappiness" -> ["un", "happiness"]
-- **Character-level tokenization:** "Hello" -> ["H", "e", "l", "l", "o"]
+1. **Word-level tokenization:** Splits text into words based on spaces and punctuation.
+
+Examples: 
+- "Hello, world!" -> ["Hello", ",", "world", "!"]
+- "Tokenization is important." -> ["Tokenization", "is", "important", "."]
+
+2. **Subword tokenization:** Breaks words into subwords or even individual characters. Useful for handling out-of-vocabulary words. Common algorithms: Byte Pair Encoding (BPE), WordPiece, SentencePiece.
+
+Examples: 
+- "unhappiness" -> ["un", "happiness"]
+- "Tokenization" -> ["Tok", "en", "ization"]
+
+3. **Character-level tokenization:** Splits text into individual characters.
+
+Examples: 
+- "Hello" -> ["H", "e", "l", "l", "o"]
+- "Token" -> ["T", "o", "k", "e", "n"]
 
 This means that token generation (tokenization) and tokens counting varies a lot for different languages and different models. For example, for [OpenAI](https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them) models and English language:
 
@@ -62,7 +78,7 @@ As define in [Mistral documentation](https://docs.mistral.ai/guides/tokenization
 
 4. **Decoding:** Finally, in the decoding step, the output tokens are converted back into human-readable text by mapping the tokens to their corresponding words using the tokenizer’s vocabulary.
  
-## How to solve LLM token limits?
+## How to Solve LLM Token Limits?
 
 ### Handle the maximum number of tokens (max_tokens) parameter:
 
@@ -94,17 +110,17 @@ Instead of creating a unic and big prompt to handle all tasks at once, create se
 
 This is a efficient alternative to handle  of the tokens limit, but the processing time mybe a limiter. 
 
-### Use a model with a bigger context window:
+### Use a Model With a Bigger Context Window:
 One of the simplest solutions is to find a model with a larger context window. For example, use Mixtral 8x7B (context window of 32.000 tokens) instead Llama 2 13B (context window of 4.096 tokens). 
 
 But be careful, as models with a larger context window will not necessarily be the most suitable for your task.
 
-### Prompt truncation:
+### Prompt Truncation:
 The easiest way to bring the prompt within the token limit is to remove parts from the prompt’s start or end. It is a simple fix, but it comes at the cost of loss of information. The model will not process the truncated prompt and might miss the important context.
 
 Truncation can be done on a character or word level, depending on the requirement. 
 
-### Chunk processing
+### Chunk Processing
 An alternative approach to handling lengthy prompt bodies involves dividing the text into smaller segments, called chunks. Each chunks is processed separately by the LLM, generating independent outputs. These outputs are then merged to create a single, comprehensive result. However, this method can introduce errors because each chunks only represents a portion of the complete information, and combining the outputs may result in gaps.
 
 This approach is usually used in summarization tasks, but can also be applied in another's NLP task, as Q&A.
@@ -131,11 +147,10 @@ This approach is usually used in summarization tasks, but can also be applied in
 - Pros: Scales well, better for single-answer questions
 - Cons: Cannot combine information between documents ​
 
-### Retrieval augmented generation (RAG): 
+### Retrieval Augmented Generation (RAG): 
 
 RAG combines retrieval-based and generative models to enhance the quality and accuracy of text generation. The retrieval model is responsible for fetching relevant information from a large corpus of documents or a database. When given a query or a prompt, the retrieval model searches for and retrieves a set of documents or passages that are most relevant to the query.
 
 Depending of the application, RAG can removes the need for the vast majority of the context in the prompt, decreasing your amount of tokens of input. However, the final results depend greatly on the search relevancy. 
 
-  
- 
+   

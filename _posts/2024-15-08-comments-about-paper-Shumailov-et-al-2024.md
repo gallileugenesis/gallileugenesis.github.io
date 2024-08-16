@@ -1,5 +1,5 @@
 ---
-title:  "LLMs aprendem quando treinados com dados gerados por outras LLMs?"
+title:  "LLMs aprendem quando treinados com dados gerados por outros LLMs?"
 date:   2024-08-15 12:00:00 -500
 categories: [Blog]
 tags: [data science, machine learning, research, paper, NLP, LLM]

@@ -43,7 +43,16 @@ Propriedades:
 2. Mantém a forma da distribuição original, mas ajusta os valores em termos de desvios padrão em relação à média.
 3. Não é sensível a outliers, mas os outliers permanecem, podendo ter valores padronizados altos ou baixos.
 
-![image.png](621cf152-23a8-4094-9ba1-b8ffe1edd27d.png)
+<p>
+\[
+z = \frac{x - \mu}{\sigma}
+\]
+
+Onde:
+- 𝑥 é o valor original,
+- 𝜇 é a média da distribuição,
+- 𝜎 é o desvio padrão.
+</p>
 
 Abaixo temos um exemplo simples de como fazer a normalização e padronização usando a biblioteca sklearn.
 

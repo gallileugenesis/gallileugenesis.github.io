@@ -21,7 +21,7 @@ Modelos baseados em cálculos de distâncias, como o K-Means, KNN e SVM, tendem 
 Normalização e padronização são técnicas de pré-processamento para escalonamento de dados. Ou seja, colocam os dados em uma mesma escala, mas de formas diferentes.
 
 **Normalização:** Reduz os valores para um intervalo fixo, geralmente [0, 1]. 
-- Método MinMaxScaler no Scikit-learn.
+- Método **MinMaxScaler** no Scikit-learn.
 
 Propriedades:
 1. Após a normalização, os valores estarão no intervalo [0,1]:
@@ -36,7 +36,7 @@ x_{\text{normalizado}} = \frac{x - \min(x)}{\max(x) - \min(x)}
 </p>
 
 **Padronização:** Transforma os dados para uma distribuição com média zero e desvio padrão igual a 1. 
-- Método StandardScaler no Scikit-learn.
+- Método **StandardScaler** no Scikit-learn.
 
 Propriedades:
 1. Após a padronização, a distribuição dos dados terá média igual a 0 e desvio padrão igual a 1.

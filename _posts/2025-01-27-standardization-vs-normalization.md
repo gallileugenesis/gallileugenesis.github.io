@@ -8,13 +8,13 @@ comments: true
 ---
 
 <!-- Linking MathJax (put this in the header or somewhere at the beginning of your document) -->
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?*Features*=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 ![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2025-01-27-standardization-vs-normalization/header_image.jpeg?raw=true)
 
 
-Features com maior escala e variância tendem a dominar o aprendizado do modelo, enquanto as de menor escala e variância têm menor influência.
+*Features* com maior escala e variância tendem a dominar o aprendizado do modelo, enquanto as de menor escala e variância têm menor influência.
 
 Modelos baseados em cálculos de distâncias, como o K-Means, KNN e SVM, tendem a ter seus resultados distorcidos pelas dimensões com maior escala e variância. Modelos lineares, como a regressão logística ou regressão linear, podem levar mais tempo para convergir ou apresentar coeficientes inadequados devido à escalas desiguais entre as variáveis.
 
@@ -47,12 +47,12 @@ Propriedades:
 \[
 z = \frac{x - \mu}{\sigma}
 \]
+</p>
 
 Onde:
 - 𝑥 é o valor original,
 - 𝜇 é a média da distribuição,
 - 𝜎 é o desvio padrão.
-</p>
 
 Abaixo temos um exemplo simples de como fazer a normalização e padronização usando a biblioteca sklearn.
 
@@ -62,7 +62,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import MinMaxScaler, StandardScaler 
 
-# Gerando uma distribuição de dados aleatórios (100 amostras, 2 features)
+# Gerando uma distribuição de dados aleatórios (100 amostras, 2 *Features*)
 np.random.seed(42)
 feature1 = np.random.randint(1, 10, size=(100, ))
 feature2 = np.random.randint(100, 1000, size=(100, ))
@@ -127,6 +127,6 @@ plt.show()
 ![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2025-01-27-standardization-vs-normalization/output_8_0.png?raw=true)
   
 
-A primeira figura da esquerda mostra a visualização dos dados com os eixos variando na mesma magnitude da feature de maior escala (feature 2). Claramente a visualização fica prejudicada pela diferença de escala entre as features. Essa diferença também seria prejudicial para alguns modelos de machine learning, como já discutido.
+A primeira figura da esquerda mostra a visualização dos dados com os eixos variando na mesma magnitude da feature de maior escala (feature 2). Claramente a visualização fica prejudicada pela diferença de escala entre as *Features*. Essa diferença também seria prejudicial para alguns modelos de machine learning, como já discutido.
 
-No gráfico do meio temos os dados normalizados, agora ambas as features variam entre 0 e 1. Isso retira o efeito da escala. Do mesmo modo, a escala já não tem impacto no gráfico da direita, onde os dados foram padronizando, passando a ter média zero e desvio padrão 1. 
+No gráfico do meio temos os dados normalizados, agora ambas as *Features* variam entre 0 e 1. Isso retira o efeito da escala. Do mesmo modo, a escala já não tem impacto no gráfico da direita, onde os dados foram padronizando, passando a ter média zero e desvio padrão 1. 

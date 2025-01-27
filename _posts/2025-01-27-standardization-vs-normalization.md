@@ -12,7 +12,7 @@ comments: true
 
 Features com maior escala e variância tendem a dominar o aprendizado do modelo, enquanto as de menor escala e variância têm menor influência.
 
-Modelos baseados em cálculos de distâncias, como o K-Means, KNN e SVM, tendem a ter seus resultados distorciados pelas dimensões com maior escala e variância. Modelos lineares, como a regressão logística ou regressão linear, podem levar mais tempo para convergir ou apresentar coeficientes inadequados devido à escalas desiguais entre as variáveis.
+Modelos baseados em cálculos de distâncias, como o K-Means, KNN e SVM, tendem a ter seus resultados distorcidos pelas dimensões com maior escala e variância. Modelos lineares, como a regressão logística ou regressão linear, podem levar mais tempo para convergir ou apresentar coeficientes inadequados devido à escalas desiguais entre as variáveis.
 
 Normalização e padronização são técnicas de pré-processamento para escalonamento de dados. Ou seja, colocam os dados em uma mesma escala, mas de formas diferentes.
 
@@ -26,9 +26,18 @@ Propriedades:
 2. Preserva a distribuição relativa dos dados, mas comprime outliers para dentro do intervalo definido.
 
 <p>
-\[
+\[  
 x_{\text{norm}} = \frac{x - \min(x)}{\max(x) - \min(x)}
 \]
+</p>
+
+<p>
+Matematicamente, isso pode ser escrito da seguinte forma:
+\[
+P(y_k|X) = P(y_k|x_1, x_2,...,x_m)
+\]
+
+Lemos "A probabilidade de ocorrência da classe \(𝑦_k\), dado o conjunto de dados \(𝑋\)".
 </p>
 
 **Padronização:** Transforma os dados para uma distribuição com média zero e desvio padrão igual a 1. 

@@ -59,6 +59,12 @@ Onde:
 - $x$ é o valor original,
 - $\mu$ é a média da distribuição,
 - $\sigma$ é o desvio padrão.
+
+<dl>
+  <dt>- Coffee</dt>
+  <dt>- Milk</dt>
+</dl>
+
 </p>
 
 Abaixo temos um exemplo simples de como fazer a normalização e padronização usando a biblioteca sklearn.

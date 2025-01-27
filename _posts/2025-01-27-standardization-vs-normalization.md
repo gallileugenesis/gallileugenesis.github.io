@@ -7,6 +7,10 @@ layout: post
 comments: true
 ---
 
+<!-- Linking MathJax (put this in the header or somewhere at the beginning of your document) -->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
 ![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2025-01-27-standardization-vs-normalization/header_image.jpeg?raw=true)
 
 
@@ -27,17 +31,8 @@ Propriedades:
 
 <p>
 \[  
-x_{\text{norm}} = \frac{x - \min(x)}{\max(x) - \min(x)}
+x_{\text{normalizado}} = \frac{x - \min(x)}{\max(x) - \min(x)}
 \]
-</p>
-
-<p>
-Matematicamente, isso pode ser escrito da seguinte forma:
-\[
-P(y_k|X) = P(y_k|x_1, x_2,...,x_m)
-\]
-
-Lemos "A probabilidade de ocorrência da classe \(𝑦_k\), dado o conjunto de dados \(𝑋\)".
 </p>
 
 **Padronização:** Transforma os dados para uma distribuição com média zero e desvio padrão igual a 1. 
@@ -119,9 +114,9 @@ plt.savefig("MinMaxScaler_StandardScaler.png")
 plt.show()
 ```
 
-   
-![png](output_8_0.png)
-    
+
+![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2025-01-27-standardization-vs-normalization/output_8_0.png?raw=true)
+  
 
 A primeira figura da esquerda mostra a visualização dos dados com os eixos variando na mesma magnitude da feature de maior escala (feature 2). Claramente a visualização fica prejudicada pela diferença de escala entre as features. Essa diferença também seria prejudicial para alguns modelos de machine learning, como já discutido.
 

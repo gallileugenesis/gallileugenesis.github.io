@@ -24,20 +24,19 @@ Normalização e padronização são técnicas de pré-processamento para escalo
 - Método **MinMaxScaler** no Scikit-learn.
 
 <p>
-
-<dl>
-  <dt>Coffee</dt>
-  <dd>- black hot drink</dd>
-  <dt>Milk</dt>
-  <dd>- white cold drink</dd>
-</dl>
-
 Propriedades:
-1. Após a normalização, os valores estarão no intervalo [0,1]:
-    - 0 corresponde ao valor mínimo ($\min(x)$​).
-    - 1 corresponde ao valor máximo ($\max(x)$).
-2. Preserva a distribuição relativa dos dados, mas comprime outliers para dentro do intervalo definido.
+</p>
+<ol>
+    <li>Após a normalização, os valores estarão no intervalo [0,1]:
+        <ul>
+            <li>0 corresponde ao valor mínimo (\(\min(x)\)).</li>
+            <li>1 corresponde ao valor máximo (\(\max(x)\)).</li>
+        </ul>
+    </li>
+    <li>Preserva a distribuição relativa dos dados, mas comprime outliers para dentro do intervalo definido.</li>
+</ol>
 
+<p>
 \[  
 x_{\text{normalizado}} = \frac{x - \min(x)}{\max(x) - \min(x)}
 \]

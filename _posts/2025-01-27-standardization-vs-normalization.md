@@ -14,13 +14,15 @@ comments: true
 ![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2025-01-27-standardization-vs-normalization/header_image.jpeg?raw=true)
 
 
+# Introdução
 *Features* com maior escala e variância tendem a dominar o aprendizado do modelo, enquanto as de menor escala e variância têm menor influência.
 
 Modelos baseados em cálculos de distâncias, como o K-Means, KNN e SVM, tendem a ter seus resultados distorcidos pelas dimensões com maior escala e variância. Modelos lineares, como a regressão logística ou regressão linear, podem levar mais tempo para convergir ou apresentar coeficientes inadequados devido à escalas desiguais entre as variáveis.
 
 Normalização e padronização são técnicas de pré-processamento para escalonamento de dados. Ou seja, colocam os dados em uma mesma escala, mas de formas diferentes.
 
-**Normalização:** Reduz os valores para um intervalo fixo, geralmente [0, 1]. 
+# Normalização 
+- Reduz os valores para um intervalo fixo, geralmente [0, 1]. 
 - Método **MinMaxScaler** no Scikit-learn.
 
 <p>

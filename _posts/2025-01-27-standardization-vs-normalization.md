@@ -63,7 +63,7 @@ Onde:
 - $\sigma$ é o desvio padrão.
 
 <dl>
-  <dt>- Coffee</dt>
+  <dd>- Coffee</dd>
   <dt>- Milk</dt>
 </dl>
 

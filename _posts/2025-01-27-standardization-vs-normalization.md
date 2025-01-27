@@ -25,8 +25,8 @@ Normalização e padronização são técnicas de pré-processamento para escalo
 
 Propriedades:
 1. Após a normalização, os valores estarão no intervalo [0,1][0,1]:
-    - 0 corresponde ao valor mínimo (𝑥_min⁡​ ).
-    - 1 corresponde ao valor máximo (𝑥_max⁡​ ).
+    - 0 corresponde ao valor mínimo (\min(x)​).
+    - 1 corresponde ao valor máximo (\max(x)).
 2. Preserva a distribuição relativa dos dados, mas comprime outliers para dentro do intervalo definido.
 
 <p>

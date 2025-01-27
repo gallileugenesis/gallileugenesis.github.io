@@ -138,6 +138,6 @@ plt.show()
 ![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2025-01-27-standardization-vs-normalization/output_8_0.png?raw=true)
   
 
-A primeira figura da esquerda mostra a visualização dos dados com os eixos variando na mesma magnitude da feature de maior escala (feature 2). Claramente a visualização fica prejudicada pela diferença de escala entre as *Features*. Essa diferença também seria prejudicial para alguns modelos de machine learning, como já discutido.
+A primeira figura da esquerda mostra a visualização dos dados com os eixos variando na mesma magnitude da *feature* de maior escala (*feature* 2). Claramente a visualização fica prejudicada pela diferença de escala entre as *features*. Essa diferença também seria prejudicial para alguns modelos de machine learning, como já discutido.
 
-No gráfico do meio temos os dados normalizados, agora ambas as *Features* variam entre 0 e 1. Isso retira o efeito da escala. Do mesmo modo, a escala já não tem impacto no gráfico da direita, onde os dados foram padronizando, passando a ter média zero e desvio padrão 1. 
+No gráfico do meio temos os dados normalizados, agora ambas as *features* variam entre 0 e 1. Isso retira o efeito da escala. Do mesmo modo, a escala já não tem impacto no gráfico da direita, onde os dados foram padronizando, passando a ter média zero e desvio padrão 1. 

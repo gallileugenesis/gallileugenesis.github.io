@@ -25,7 +25,6 @@ Normalização e padronização são técnicas de pré-processamento para escalo
 - Reduz os valores para um intervalo fixo, geralmente [0, 1]. 
 - Método **MinMaxScaler** no Scikit-learn.
 
-
 **Propriedades:**
 <ol>
     <li>Após a normalização, os valores estarão no intervalo [0,1]:
@@ -58,13 +57,10 @@ z = \frac{x - \mu}{\sigma}
 \]
 
 Onde:
-- $x$ é o valor original,
-- $\mu$ é a média da distribuição,
-- $\sigma$ é o desvio padrão.
-
 <dl>
-  <dd>- Coffee</dd>
-  <dt>- Milk</dt>
+  <dd>- $x$ é o valor original</dd>
+  <dd>- $\mu$ é a média da distribuição</dd>
+  <dd>- $\sigma$ é o desvio padrão</dd>
 </dl>
 
 </p>

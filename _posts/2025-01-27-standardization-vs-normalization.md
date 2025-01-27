@@ -25,9 +25,8 @@ Normalização e padronização são técnicas de pré-processamento para escalo
 - Reduz os valores para um intervalo fixo, geralmente [0, 1]. 
 - Método **MinMaxScaler** no Scikit-learn.
 
-<p>
-Propriedades:
-</p>
+
+**Propriedades:**
 <ol>
     <li>Após a normalização, os valores estarão no intervalo [0,1]:
         <ul>
@@ -44,10 +43,11 @@ x_{\text{normalizado}} = \frac{x - \min(x)}{\max(x) - \min(x)}
 \]
 </p>
 
-**Padronização:** Transforma os dados para uma distribuição com média zero e desvio padrão igual a 1. 
+# Padronização
+- Transforma os dados para uma distribuição com média zero e desvio padrão igual a 1. 
 - Método **StandardScaler** no Scikit-learn.
 
-Propriedades:
+**Propriedades:**
 1. Após a padronização, a distribuição dos dados terá média igual a 0 e desvio padrão igual a 1.
 2. Mantém a forma da distribuição original, mas ajusta os valores em termos de desvios padrão em relação à média.
 3. Não é sensível a outliers, mas os outliers permanecem, podendo ter valores padronizados altos ou baixos.

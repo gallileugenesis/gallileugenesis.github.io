@@ -47,12 +47,12 @@ Propriedades:
 \[
 z = \frac{x - \mu}{\sigma}
 \]
-</p>
 
 Onde:
-- 𝑥 é o valor original,
-- 𝜇 é a média da distribuição,
-- 𝜎 é o desvio padrão.
+- $x$ é o valor original,
+- $\mu$ é a média da distribuição,
+- $\sigma$ é o desvio padrão.
+</p>
 
 Abaixo temos um exemplo simples de como fazer a normalização e padronização usando a biblioteca sklearn.
 

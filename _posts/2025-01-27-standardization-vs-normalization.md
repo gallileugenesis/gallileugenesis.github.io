@@ -58,9 +58,9 @@ z = \frac{x - \mu}{\sigma}
 
 Onde:
 <dl>
-  <dd>- $x$ é o valor original</dd>
-  <dd>- $\mu$ é a média da distribuição</dd>
-  <dd>- $\sigma$ é o desvio padrão</dd>
+  <dd>- \(x\) é o valor original</dd>
+  <dd>- \(\mu\) é a média da distribuição</dd>
+  <dd>- \(\sigma\) é o desvio padrão</dd>
 </dl>
 
 </p>

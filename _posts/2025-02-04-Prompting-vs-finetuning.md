@@ -10,7 +10,7 @@ comments: true
 ![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2025-02-04-Prompting-vs-finetuning/header_image.jpeg?raw=true)
 
 
-A engenharia de prompt é muito mais rápida do que outros métodos de controle de comportamento do modelo, como finetuning, e pode frequentemente gerar ganhos de desempenho em muito menos tempo. Aqui estão 10 motivos para considerar a engenharia de prompt em vez do finetuning:
+A engenharia de prompt é muito mais rápida do que outros métodos de controle de comportamento do modelo, como RAG e finetuning, e pode frequentemente gerar ganhos de desempenho em muito menos tempo. Aqui estão 10 motivos para considerar a engenharia de prompt em vez do finetuning:
 
 1. **Eficiência de recursos:** o finetuning requer GPUs de ponta e grande memória, enquanto a engenharia de prompt precisa apenas de entrada de texto, o que a torna muito mais amigável aos recursos.
 2. **Custo-benefício:** para serviços de IA baseados em nuvem, o finetuning incorre em custos significativos. A engenharia de prompt usa o modelo base, que normalmente é mais barato.

@@ -7,8 +7,10 @@ layout: post
 comments: true
 ---
 
-![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/94c903d47da8b7feb9fd7707fb273a3351a09e32/post-img/2025-02-04-Prompting-vs-finetuning/header_image.png)
+<!-- ![png](https://github.com/gallileugenesis/gallileugenesis.github.io
+/blob/main/post-img/2025-02-04-Prompting-vs-fine-tuning/header_image.png?raw=true) -->
 
+![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2025-01-27-standardization-vs-normalization/header_image.jpeg?raw=true)
 
 
 Projetos baseados em LLMs passaram de exóticos aos queridinhos do mercado. E não por acaso. Eu costumo dizer que os LLMs tem o maior poder disruptivo dentro do universo da inteligência artificial, pois já tem grande parte da infraestrutura construída pelos grandes players do mercado e também porque consegue resolver uma série de problemas do mundo real de forma assustadoramente eficiente e, principalmente, adaptativa e customizada. 
